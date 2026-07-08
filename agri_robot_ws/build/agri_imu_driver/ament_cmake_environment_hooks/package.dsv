@@ -1,0 +1,4 @@
+source;share/agri_imu_driver/local_setup.bash
+source;share/agri_imu_driver/local_setup.dsv
+source;share/agri_imu_driver/local_setup.sh
+source;share/agri_imu_driver/local_setup.zsh

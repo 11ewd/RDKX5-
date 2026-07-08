@@ -1,0 +1,1 @@
+{"time": "2026-06-28 06:16:41", "source": "car", "anomaly_type": "yellow_leaf", "anomaly_name": "黄叶", "confidence": 0.86, "severity": "严重", "location": "接口测试", "bbox": "", "image_name": "", "image_url": "", "suggestion": "黄叶较严重，建议地面小车重点复查，可结合补水、补肥或喷药处理。", "status": "未处理"}

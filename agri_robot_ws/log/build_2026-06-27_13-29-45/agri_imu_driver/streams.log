@@ -1,0 +1,31 @@
+[0.036s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_imu_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_imu_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_imu_driver
+[0.115s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.261s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.666s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.201s] -- Configuring done
+[3.218s] -- Generating done
+[3.226s] -- Build files have been written to: /home/sunrise/agri_robot_ws/build/agri_imu_driver
+[3.246s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_imu_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_imu_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_imu_driver
+[3.272s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_imu_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/agri_imu_driver -- -j8 -l8
+[3.465s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_imu_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/agri_imu_driver -- -j8 -l8
+[3.518s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_imu_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/agri_imu_driver
+[3.552s] -- Install configuration: ""
+[3.554s] -- Execute custom install script
+[3.555s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/lib/agri_imu_driver/imu_node.py
+[3.595s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/lib/agri_imu_driver/gy95t_node.py
+[3.650s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/ament_index/resource_index/package_run_dependencies/agri_imu_driver
+[3.693s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/ament_index/resource_index/parent_prefix_path/agri_imu_driver
+[3.742s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/environment/ament_prefix_path.sh
+[3.789s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/environment/ament_prefix_path.dsv
+[3.841s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/environment/path.sh
+[3.892s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/environment/path.dsv
+[3.942s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/local_setup.bash
+[3.992s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/local_setup.sh
+[4.044s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/local_setup.zsh
+[4.092s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/local_setup.dsv
+[4.142s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/package.dsv
+[4.194s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/ament_index/resource_index/packages/agri_imu_driver
+[4.241s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/cmake/agri_imu_driverConfig.cmake
+[4.288s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/cmake/agri_imu_driverConfig-version.cmake
+[4.341s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/package.xml
+[4.410s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_imu_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/agri_imu_driver

@@ -1,0 +1,2 @@
+[0.064s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_control': /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_control
+[0.684s] -- The C compiler identification is GNU 11.2.0

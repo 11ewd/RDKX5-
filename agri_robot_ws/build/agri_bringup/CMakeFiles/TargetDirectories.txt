@@ -1,0 +1,9 @@
+/home/sunrise/agri_robot_ws/build/agri_bringup/CMakeFiles/uninstall.dir
+/home/sunrise/agri_robot_ws/build/agri_bringup/CMakeFiles/agri_bringup_uninstall.dir
+/home/sunrise/agri_robot_ws/build/agri_bringup/CMakeFiles/test.dir
+/home/sunrise/agri_robot_ws/build/agri_bringup/CMakeFiles/edit_cache.dir
+/home/sunrise/agri_robot_ws/build/agri_bringup/CMakeFiles/rebuild_cache.dir
+/home/sunrise/agri_robot_ws/build/agri_bringup/CMakeFiles/list_install_components.dir
+/home/sunrise/agri_robot_ws/build/agri_bringup/CMakeFiles/install.dir
+/home/sunrise/agri_robot_ws/build/agri_bringup/CMakeFiles/install/local.dir
+/home/sunrise/agri_robot_ws/build/agri_bringup/CMakeFiles/install/strip.dir

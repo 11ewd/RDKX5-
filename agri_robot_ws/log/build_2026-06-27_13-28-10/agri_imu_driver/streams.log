@@ -1,0 +1,33 @@
+[0.036s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_imu_driver': /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_imu_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_imu_driver
+[0.634s] -- The C compiler identification is GNU 11.2.0
+[1.203s] -- The CXX compiler identification is GNU 11.2.0
+[1.253s] -- Detecting C compiler ABI info
+[1.641s] -- Detecting C compiler ABI info - done
+[1.718s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.720s] -- Detecting C compile features
+[1.724s] -- Detecting C compile features - done
+[1.744s] -- Detecting CXX compiler ABI info
+[2.176s] -- Detecting CXX compiler ABI info - done
+[2.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.272s] -- Detecting CXX compile features
+[2.274s] -- Detecting CXX compile features - done
+[2.320s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.321s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.321s]   has asked CMake to find a package configuration file provided by
+[2.322s]   "ament_cmake", but CMake did not find one.
+[2.322s] 
+[2.323s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.323s]   any of the following names:
+[2.324s] 
+[2.324s]     ament_cmakeConfig.cmake
+[2.324s]     ament_cmake-config.cmake
+[2.325s] 
+[2.325s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.326s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.326s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.326s]   has been installed.
+[2.327s] 
+[2.327s] [0m
+[2.328s] -- Configuring incomplete, errors occurred!
+[2.328s] See also "/home/sunrise/agri_robot_ws/build/agri_imu_driver/CMakeFiles/CMakeOutput.log".
+[2.336s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_imu_driver' returned '1': /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_imu_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_imu_driver

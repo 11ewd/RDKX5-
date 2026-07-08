@@ -1,0 +1,187 @@
+[0.034s] Invoking command in '/home/sunrise/agri_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunrise/agri_robot_ws/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/lslidar_driver
+[0.333s] -- The C compiler identification is GNU 11.2.0
+[0.653s] -- The CXX compiler identification is GNU 11.2.0
+[0.690s] -- Detecting C compiler ABI info
+[1.049s] -- Detecting C compiler ABI info - done
+[1.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.122s] -- Detecting C compile features
+[1.124s] -- Detecting C compile features - done
+[1.139s] -- Detecting CXX compiler ABI info
+[1.537s] -- Detecting CXX compiler ABI info - done
+[1.591s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.592s] -- Detecting CXX compile features
+[1.595s] -- Detecting CXX compile features - done
+[2.445s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[2.467s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[4.688s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.099s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.420s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.443s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.483s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.891s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.906s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.378s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.505s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.683s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.729s] -- Found Threads: TRUE  
+[7.096s] -- Checking for module 'eigen3'
+[7.148s] --   Found eigen3, version 3.4.0
+[7.310s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.311s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.402s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[7.469s] -- Checking for module 'flann'
+[7.523s] --   Found flann, version 1.9.1
+[7.724s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[7.725s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[7.939s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[7.973s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[8.786s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[8.793s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[8.820s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[8.886s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[8.997s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[9.088s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[9.579s] -- Found X11: /usr/include   
+[9.583s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[9.975s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[9.976s] -- Looking for gethostbyname
+[10.311s] -- Looking for gethostbyname - found
+[10.311s] -- Looking for connect
+[10.699s] -- Looking for connect - found
+[10.700s] -- Looking for remove
+[11.079s] -- Looking for remove - found
+[11.080s] -- Looking for shmat
+[11.451s] -- Looking for shmat - found
+[11.452s] -- Looking for IceConnectionNumber in ICE
+[11.840s] -- Looking for IceConnectionNumber in ICE - found
+[12.322s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[12.333s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[12.348s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[12.363s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[12.522s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[12.555s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[12.579s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[12.608s] -- Found utf8cpp: /usr/include/utf8cpp  
+[12.987s] -- Checking for module 'libusb-1.0'
+[13.050s] --   Found libusb-1.0, version 1.0.25
+[13.233s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[13.239s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[13.240s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.494s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[13.494s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.495s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[14.429s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[14.457s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.485s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[15.383s] -- Found Qhull version 8.0.2
+[16.299s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.194s] -- looking for PCL_COMMON
+[17.199s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[17.200s] -- looking for PCL_KDTREE
+[17.205s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[17.206s] -- looking for PCL_OCTREE
+[17.211s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[17.212s] -- looking for PCL_SEARCH
+[17.217s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[17.218s] -- looking for PCL_SAMPLE_CONSENSUS
+[17.223s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[17.224s] -- looking for PCL_FILTERS
+[17.229s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[17.230s] -- looking for PCL_2D
+[17.232s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[17.233s] -- looking for PCL_GEOMETRY
+[17.234s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[17.235s] -- looking for PCL_IO
+[17.241s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[17.242s] -- looking for PCL_FEATURES
+[17.247s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[17.249s] -- looking for PCL_ML
+[17.254s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[17.255s] -- looking for PCL_SEGMENTATION
+[17.260s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[17.262s] -- looking for PCL_VISUALIZATION
+[17.267s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[17.269s] -- looking for PCL_SURFACE
+[17.274s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[17.276s] -- looking for PCL_REGISTRATION
+[17.281s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[17.282s] -- looking for PCL_KEYPOINTS
+[17.288s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[17.289s] -- looking for PCL_TRACKING
+[17.294s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[17.296s] -- looking for PCL_RECOGNITION
+[17.301s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[17.303s] -- looking for PCL_STEREO
+[17.308s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[17.309s] -- looking for PCL_APPS
+[17.314s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[17.318s] -- looking for PCL_IN_HAND_SCANNER
+[17.320s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[17.320s] -- looking for PCL_MODELER
+[17.322s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[17.323s] -- looking for PCL_POINT_CLOUD_EDITOR
+[17.325s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[17.326s] -- looking for PCL_OUTOFCORE
+[17.332s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[17.333s] -- looking for PCL_PEOPLE
+[17.338s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[17.343s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[17.352s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[17.475s] -- Found lslidar_msgs: 1.2.0 (/home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[17.561s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[17.679s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[18.507s] -- Configuring done
+[18.944s] -- Generating done
+[19.027s] -- Build files have been written to: /home/sunrise/agri_robot_ws/build/lslidar_driver
+[19.156s] Invoked command in '/home/sunrise/agri_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunrise/agri_robot_ws/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/lslidar_driver
+[19.165s] Invoking command in '/home/sunrise/agri_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/lslidar_driver -- -j8 -l8
+[19.400s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[19.400s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[19.401s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[19.402s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[110.455s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[125.810s] [100%] Built target lslidar_driver_node
+[125.878s] Invoked command in '/home/sunrise/agri_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/lslidar_driver -- -j8 -l8
+[125.899s] Invoking command in '/home/sunrise/agri_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/lslidar_driver
+[125.929s] -- Install configuration: ""
+[125.931s] -- Execute custom install script
+[125.934s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[125.973s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[126.013s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[126.056s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[126.104s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[126.152s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[126.201s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[126.250s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[126.308s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[126.352s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[126.406s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[126.451s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[126.500s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[126.549s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[126.597s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[126.643s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[126.692s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[126.741s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[126.794s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[126.843s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[126.888s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[126.928s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[126.973s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[127.021s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[127.072s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[127.122s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[127.172s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[127.223s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[127.273s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[127.323s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[127.374s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[127.424s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[127.466s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[127.507s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[127.555s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[127.603s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[127.653s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[127.723s] Invoked command in '/home/sunrise/agri_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/lslidar_driver

@@ -1,0 +1,310 @@
+[0.053s] Invoking command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/agri_robot_ws/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/lslidar_msgs
+[0.640s] -- The C compiler identification is GNU 11.2.0
+[1.183s] -- The CXX compiler identification is GNU 11.2.0
+[1.228s] -- Detecting C compiler ABI info
+[1.599s] -- Detecting C compiler ABI info - done
+[1.662s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.664s] -- Detecting C compile features
+[1.671s] -- Detecting C compile features - done
+[1.689s] -- Detecting CXX compiler ABI info
+[2.155s] -- Detecting CXX compiler ABI info - done
+[2.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.205s] -- Detecting CXX compile features
+[2.207s] -- Detecting CXX compile features - done
+[2.230s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.072s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.468s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.592s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[3.774s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.802s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.851s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.929s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.192s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.407s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.460s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.237s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.340s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.331s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[9.338s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.501s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[9.502s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.502s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.503s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[9.633s] -- Found PythonExtra: .so  
+[9.975s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.986s] -- Added test 'lint_cmake' to check CMake code style
+[9.993s] -- Added test 'xmllint' to check XML markup files
+[10.033s] -- Configuring done
+[10.246s] -- Generating done
+[10.313s] -- Build files have been written to: /home/sunrise/agri_robot_ws/build/lslidar_msgs
+[10.380s] Invoked command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/agri_robot_ws/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/lslidar_msgs
+[10.389s] Invoking command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/lslidar_msgs
+[10.615s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.216s] [  1%] Built target lslidar_msgs__cpp
+[14.259s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.843s] [  4%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[18.507s] [  6%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[19.955s] [  7%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[21.386s] [  9%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[22.793s] [ 11%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[24.257s] [ 12%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so[0m
+[24.432s] [ 12%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[24.476s] [ 14%] [34m[1mGenerating C code for ROS interfaces[0m
+[28.090s] [ 15%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__functions.c.o[0m
+[28.396s] [ 17%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o[0m
+[28.641s] [ 19%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__functions.c.o[0m
+[28.885s] [ 20%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__functions.c.o[0m
+[29.123s] [ 22%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__functions.c.o[0m
+[29.380s] [ 23%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_generator_c.so[0m
+[29.573s] [ 23%] Built target lslidar_msgs__rosidl_generator_c
+[29.615s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[32.760s] [ 26%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_difop__type_support_c.cpp.o[0m
+[34.587s] [ 28%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o[0m
+[36.376s] [ 30%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o[0m
+[38.255s] [ 31%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o[0m
+[40.094s] [ 33%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support_c.cpp.o[0m
+[41.904s] [ 34%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[42.402s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[42.457s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[45.741s] [ 38%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_difop__type_support.cpp.o[0m
+[47.899s] [ 39%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o[0m
+[50.053s] [ 41%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o[0m
+[52.192s] [ 42%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o[0m
+[54.549s] [ 44%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_sweep__type_support.cpp.o[0m
+[56.710s] [ 46%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[57.182s] [ 46%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[57.231s] [ 47%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[60.232s] [ 49%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o[0m
+[60.426s] [ 50%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o[0m
+[60.634s] [ 52%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o[0m
+[60.827s] [ 53%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o[0m
+[61.038s] [ 55%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o[0m
+[61.253s] [ 57%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so[0m
+[61.408s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[61.461s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[64.056s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[64.232s] [ 61%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[64.400s] [ 63%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[64.579s] [ 65%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[64.753s] [ 66%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[64.933s] [ 68%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so[0m
+[65.129s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_c
+[65.178s] [ 69%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[68.079s] [ 71%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o[0m
+[70.170s] [ 73%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o[0m
+[72.268s] [ 74%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o[0m
+[74.349s] [ 76%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o[0m
+[76.617s] [ 77%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp.o[0m
+[79.055s] [ 79%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[79.523s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[79.623s] [ 79%] Built target lslidar_msgs
+[79.772s] [ 79%] Built target ament_cmake_python_symlink_lslidar_msgs
+[81.420s] running egg_info
+[81.423s] creating lslidar_msgs.egg-info
+[81.425s] writing lslidar_msgs.egg-info/PKG-INFO
+[81.426s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[81.426s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[81.428s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[81.441s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[81.444s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[81.645s] [ 79%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[81.757s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[87.702s] [ 80%] Built target lslidar_msgs__py
+[87.810s] [ 82%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_difop_s.c.o[0m
+[88.514s] [ 84%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o[0m
+[89.155s] [ 85%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o[0m
+[89.796s] [ 87%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o[0m
+[90.430s] [ 88%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_sweep_s.c.o[0m
+[91.066s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so[0m
+[91.333s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[91.433s] [ 92%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[92.091s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[92.292s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[92.399s] [ 95%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[93.046s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[93.245s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[93.351s] [ 98%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[94.016s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[94.206s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[94.278s] Invoked command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/lslidar_msgs
+[94.336s] Invoking command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/lslidar_msgs
+[94.373s] -- Install configuration: ""
+[94.375s] -- Execute custom install script
+[94.377s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[94.421s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[94.462s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[94.511s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[94.561s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[94.613s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[94.661s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[94.712s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[94.762s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[94.814s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[94.864s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[94.915s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[94.967s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[95.014s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[95.063s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[95.115s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[95.164s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[95.212s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[95.261s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[95.312s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[95.362s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[95.413s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[95.465s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[95.513s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[95.570s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[95.617s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[95.665s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[95.715s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[95.763s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[95.809s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[95.869s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[95.916s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[95.963s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[96.015s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[96.064s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[96.114s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[96.163s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[96.214s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[96.262s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[96.313s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[96.363s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[96.415s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[96.464s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[96.515s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[96.563s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[96.614s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[96.661s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[96.711s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[96.762s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[96.814s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[96.863s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[96.914s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[96.963s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[97.014s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[97.064s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[97.115s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[97.173s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[97.221s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[97.270s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[97.319s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[97.367s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[97.416s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[97.471s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[97.521s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[97.570s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[97.622s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[97.671s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[97.722s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[97.778s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[97.825s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[97.874s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[97.925s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[97.986s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[98.036s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[98.085s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[98.139s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[98.186s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[98.236s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[98.287s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[98.347s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[98.392s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[98.441s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[98.491s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[98.543s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[98.593s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[98.644s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[98.690s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[98.743s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[98.791s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[98.842s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[98.893s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[98.942s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[98.991s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[99.042s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[99.090s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[99.141s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[99.192s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[99.243s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[99.297s] -- Up-to-date symlink: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[99.301s] -- Up-to-date symlink: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[99.307s] -- Up-to-date symlink: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[99.310s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[99.358s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[99.407s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[99.457s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[99.505s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[99.555s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[99.604s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[99.655s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[99.703s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[99.750s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[99.799s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[99.850s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[99.899s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[99.952s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[100.004s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[100.054s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[100.106s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[100.157s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[100.205s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[100.249s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[100.294s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[100.345s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[100.395s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[100.445s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[100.493s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[100.543s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[100.592s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[100.646s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[100.695s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[100.746s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[100.794s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[100.845s] -- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[100.894s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[100.901s] -- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""
+[100.902s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[100.904s] -- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[100.904s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[100.906s] -- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[100.906s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[100.907s] -- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""
+[100.908s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[100.909s] -- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""
+[100.909s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[100.911s] -- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[100.912s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[100.914s] -- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""
+[101.130s] Listing '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[101.130s] Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...
+[101.131s] Listing '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[101.132s] Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...
+[101.132s] Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py'...
+[101.133s] Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...
+[101.133s] Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py'...
+[101.134s] Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py'...
+[101.135s] Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py'...
+[101.171s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[101.174s] -- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""
+[101.175s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[101.177s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[101.178s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[101.179s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[101.180s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[101.182s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[101.183s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[101.185s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[101.186s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[101.187s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[101.189s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[101.190s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[101.191s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[101.193s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[101.194s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[101.196s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[101.197s] -- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[101.214s] Invoked command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/lslidar_msgs

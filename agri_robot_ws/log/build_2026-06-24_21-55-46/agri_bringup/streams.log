@@ -1,0 +1,3 @@
+[0.061s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_bringup': /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_bringup
+[0.701s] -- The C compiler identification is GNU 11.2.0
+[1.442s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_bringup' returned '-2': /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_bringup

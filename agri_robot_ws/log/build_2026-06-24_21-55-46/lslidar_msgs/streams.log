@@ -1,0 +1,3 @@
+[0.069s] Invoking command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs': /usr/bin/cmake /home/sunrise/agri_robot_ws/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/lslidar_msgs
+[0.726s] -- The C compiler identification is GNU 11.2.0
+[1.493s] Invoked command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs' returned '-2': /usr/bin/cmake /home/sunrise/agri_robot_ws/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/lslidar_msgs

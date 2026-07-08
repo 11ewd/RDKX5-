@@ -1,0 +1,17 @@
+/home/sunrise/agri_robot_ws/install/agri_control/lib/agri_control/control.py
+/home/sunrise/agri_robot_ws/install/agri_control/lib/agri_control/imu_car_control.py
+/home/sunrise/agri_robot_ws/install/agri_control/share/ament_index/resource_index/package_run_dependencies/agri_control
+/home/sunrise/agri_robot_ws/install/agri_control/share/ament_index/resource_index/parent_prefix_path/agri_control
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/environment/ament_prefix_path.sh
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/environment/ament_prefix_path.dsv
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/environment/path.sh
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/environment/path.dsv
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/local_setup.bash
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/local_setup.sh
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/local_setup.zsh
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/local_setup.dsv
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/package.dsv
+/home/sunrise/agri_robot_ws/install/agri_control/share/ament_index/resource_index/packages/agri_control
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/cmake/agri_controlConfig.cmake
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/cmake/agri_controlConfig-version.cmake
+/home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/package.xml

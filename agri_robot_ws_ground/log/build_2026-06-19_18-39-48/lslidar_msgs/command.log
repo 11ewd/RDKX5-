@@ -1,0 +1,4 @@
+Invoking command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/lslidar_msgs
+Invoked command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/lslidar_msgs
+Invoking command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/lslidar_msgs
+Invoked command in '/home/sunrise/agri_robot_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/lslidar_msgs

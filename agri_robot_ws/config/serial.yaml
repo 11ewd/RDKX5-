@@ -1,0 +1,30 @@
+serial:
+  port: "/dev/ttyUSB0"
+  baudrate: 115200
+  timeout: 0.2
+
+commands:
+  stop: "0"
+  forward: "1"
+  backward: "2"
+  left: "7"
+  right: "8"
+
+  servo_left: "L"
+  servo_right: "R"
+  servo_reset: "Z"
+
+  pump1_toggle: "p"
+  pump2_toggle: "q"
+  pump1_off: "P"
+  pump2_off: "Q"
+  pumps_off: "x"
+
+  estop: "k"
+  estop_release: "U"
+
+  motor_enable: "m"
+  motor_disable: "n"
+
+  status: "g"
+  help: "h"

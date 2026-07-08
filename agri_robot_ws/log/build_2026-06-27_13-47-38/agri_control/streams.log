@@ -1,0 +1,48 @@
+[0.037s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_control
+[0.350s] -- The C compiler identification is GNU 11.2.0
+[0.672s] -- The CXX compiler identification is GNU 11.2.0
+[0.708s] -- Detecting C compiler ABI info
+[1.087s] -- Detecting C compiler ABI info - done
+[1.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.162s] -- Detecting C compile features
+[1.164s] -- Detecting C compile features - done
+[1.179s] -- Detecting CXX compiler ABI info
+[1.609s] -- Detecting CXX compiler ABI info - done
+[1.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.683s] -- Detecting CXX compile features
+[1.685s] -- Detecting CXX compile features - done
+[1.695s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.838s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.366s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.841s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.845s] -- Added test 'lint_cmake' to check CMake code style
+[4.848s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.854s] -- Added test 'xmllint' to check XML markup files
+[4.861s] -- Configuring done
+[4.874s] -- Generating done
+[4.881s] -- Build files have been written to: /home/sunrise/agri_robot_ws/build/agri_control
+[4.912s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_control
+[4.933s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/agri_control -- -j8 -l8
+[5.111s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/agri_control -- -j8 -l8
+[5.172s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/agri_control
+[5.206s] -- Install configuration: ""
+[5.207s] -- Execute custom install script
+[5.209s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/lib/agri_control/control.py
+[5.247s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/lib/agri_control/imu_car_control.py
+[5.290s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/ament_index/resource_index/package_run_dependencies/agri_control
+[5.338s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/ament_index/resource_index/parent_prefix_path/agri_control
+[5.384s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/environment/ament_prefix_path.sh
+[5.432s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/environment/ament_prefix_path.dsv
+[5.478s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/environment/path.sh
+[5.522s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/environment/path.dsv
+[5.573s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/local_setup.bash
+[5.625s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/local_setup.sh
+[5.676s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/local_setup.zsh
+[5.724s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/local_setup.dsv
+[5.775s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/package.dsv
+[5.824s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/ament_index/resource_index/packages/agri_control
+[5.868s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/cmake/agri_controlConfig.cmake
+[5.911s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/cmake/agri_controlConfig-version.cmake
+[5.963s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_control/share/agri_control/package.xml
+[6.031s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/agri_control

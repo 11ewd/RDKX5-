@@ -1,0 +1,4 @@
+Invoking command in '/home/sunrise/agri_robot_ws/build/agri_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/agri_bringup -- -j8 -l8
+Invoked command in '/home/sunrise/agri_robot_ws/build/agri_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/agri_bringup -- -j8 -l8
+Invoking command in '/home/sunrise/agri_robot_ws/build/agri_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/agri_bringup
+Invoked command in '/home/sunrise/agri_robot_ws/build/agri_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/agri_bringup

@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.001774] (-) JobUnselected: {'identifier': 'agri_bringup'}
+[0.002483] (-) JobUnselected: {'identifier': 'agri_car_driver'}
+[0.003258] (-) JobUnselected: {'identifier': 'agri_control'}
+[0.003500] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.003718] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.003952] (agri_imu_driver) JobQueued: {'identifier': 'agri_imu_driver', 'dependencies': OrderedDict()}
+[0.004215] (agri_imu_driver) JobStarted: {'identifier': 'agri_imu_driver'}
+[0.033641] (agri_imu_driver) JobProgress: {'identifier': 'agri_imu_driver', 'progress': 'cmake'}
+[0.036363] (agri_imu_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/agri_robot_ws/src/agri_imu_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_imu_driver'], 'cwd': '/home/sunrise/agri_robot_ws/build/agri_imu_driver', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.43.71 53825 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/agri_robot_ws/src/agri_imu_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/agri_robot_ws/build/agri_imu_driver'), ('SSH_CONNECTION', '192.168.43.71 53825 192.168.43.127 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098708] (-) TimerEvent: {}
+[0.118800] (agri_imu_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198848] (-) TimerEvent: {}
+[0.299594] (-) TimerEvent: {}
+[0.400340] (-) TimerEvent: {}
+[0.501169] (-) TimerEvent: {}
+[0.601880] (-) TimerEvent: {}
+[0.702619] (-) TimerEvent: {}
+[0.803422] (-) TimerEvent: {}
+[0.904169] (-) TimerEvent: {}
+[1.004901] (-) TimerEvent: {}
+[1.105641] (-) TimerEvent: {}
+[1.206371] (-) TimerEvent: {}
+[1.307091] (-) TimerEvent: {}
+[1.407868] (-) TimerEvent: {}
+[1.508657] (-) TimerEvent: {}
+[1.609394] (-) TimerEvent: {}
+[1.710132] (-) TimerEvent: {}
+[1.810846] (-) TimerEvent: {}
+[1.911560] (-) TimerEvent: {}
+[2.012268] (-) TimerEvent: {}
+[2.112995] (-) TimerEvent: {}
+[2.213780] (-) TimerEvent: {}
+[2.265063] (agri_imu_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.313927] (-) TimerEvent: {}
+[2.414743] (-) TimerEvent: {}
+[2.515451] (-) TimerEvent: {}
+[2.616224] (-) TimerEvent: {}
+[2.669434] (agri_imu_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.716449] (-) TimerEvent: {}
+[2.817252] (-) TimerEvent: {}
+[2.918060] (-) TimerEvent: {}
+[3.018788] (-) TimerEvent: {}
+[3.119620] (-) TimerEvent: {}
+[3.204413] (agri_imu_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.219793] (-) TimerEvent: {}
+[3.221838] (agri_imu_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[3.229994] (agri_imu_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/agri_robot_ws/build/agri_imu_driver\n'}
+[3.247520] (agri_imu_driver) CommandEnded: {'returncode': 0}
+[3.255889] (agri_imu_driver) JobProgress: {'identifier': 'agri_imu_driver', 'progress': 'build'}
+[3.272166] (agri_imu_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/agri_robot_ws/build/agri_imu_driver', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/agri_robot_ws/build/agri_imu_driver', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.43.71 53825 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/agri_robot_ws/src/agri_imu_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/agri_robot_ws/build/agri_imu_driver'), ('SSH_CONNECTION', '192.168.43.71 53825 192.168.43.127 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.319979] (-) TimerEvent: {}
+[3.420871] (-) TimerEvent: {}
+[3.469013] (agri_imu_driver) CommandEnded: {'returncode': 0}
+[3.471418] (agri_imu_driver) JobProgress: {'identifier': 'agri_imu_driver', 'progress': 'install'}
+[3.518403] (agri_imu_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/agri_robot_ws/build/agri_imu_driver'], 'cwd': '/home/sunrise/agri_robot_ws/build/agri_imu_driver', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.43.71 53825 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/agri_robot_ws/src/agri_imu_driver'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/agri_robot_ws/build/agri_imu_driver'), ('SSH_CONNECTION', '192.168.43.71 53825 192.168.43.127 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.524761] (-) TimerEvent: {}
+[3.555949] (agri_imu_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.557769] (agri_imu_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.558878] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/lib/agri_imu_driver/imu_node.py\n'}
+[3.598928] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/lib/agri_imu_driver/gy95t_node.py\n'}
+[3.624964] (-) TimerEvent: {}
+[3.653458] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/ament_index/resource_index/package_run_dependencies/agri_imu_driver\n'}
+[3.695640] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/ament_index/resource_index/parent_prefix_path/agri_imu_driver\n'}
+[3.725171] (-) TimerEvent: {}
+[3.744462] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/environment/ament_prefix_path.sh\n'}
+[3.791726] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/environment/ament_prefix_path.dsv\n'}
+[3.825393] (-) TimerEvent: {}
+[3.843731] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/environment/path.sh\n'}
+[3.895110] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/environment/path.dsv\n'}
+[3.925610] (-) TimerEvent: {}
+[3.945052] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/local_setup.bash\n'}
+[3.994602] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/local_setup.sh\n'}
+[4.025832] (-) TimerEvent: {}
+[4.046788] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/local_setup.zsh\n'}
+[4.095035] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/local_setup.dsv\n'}
+[4.126045] (-) TimerEvent: {}
+[4.144950] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/package.dsv\n'}
+[4.196823] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/ament_index/resource_index/packages/agri_imu_driver\n'}
+[4.226264] (-) TimerEvent: {}
+[4.244124] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/cmake/agri_imu_driverConfig.cmake\n'}
+[4.290633] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/cmake/agri_imu_driverConfig-version.cmake\n'}
+[4.326485] (-) TimerEvent: {}
+[4.343809] (agri_imu_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/agri_imu_driver/share/agri_imu_driver/package.xml\n'}
+[4.413183] (agri_imu_driver) CommandEnded: {'returncode': 0}
+[4.427045] (-) TimerEvent: {}
+[4.530078] (-) TimerEvent: {}
+[4.552757] (agri_imu_driver) JobEnded: {'identifier': 'agri_imu_driver', 'rc': 0}
+[4.555640] (-) EventReactorShutdown: {}

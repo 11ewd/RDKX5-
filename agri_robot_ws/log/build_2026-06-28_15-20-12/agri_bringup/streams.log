@@ -1,0 +1,48 @@
+[0.041s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_bringup
+[0.348s] -- The C compiler identification is GNU 11.2.0
+[0.669s] -- The CXX compiler identification is GNU 11.2.0
+[0.702s] -- Detecting C compiler ABI info
+[1.082s] -- Detecting C compiler ABI info - done
+[1.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.142s] -- Detecting C compile features
+[1.145s] -- Detecting C compile features - done
+[1.161s] -- Detecting CXX compiler ABI info
+[1.592s] -- Detecting CXX compiler ABI info - done
+[1.664s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.665s] -- Detecting CXX compile features
+[1.667s] -- Detecting CXX compile features - done
+[1.678s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.900s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.289s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.415s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.862s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.864s] -- Added test 'lint_cmake' to check CMake code style
+[4.867s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.872s] -- Added test 'xmllint' to check XML markup files
+[4.879s] -- Configuring done
+[4.892s] -- Generating done
+[4.899s] -- Build files have been written to: /home/sunrise/agri_robot_ws/build/agri_bringup
+[4.934s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/agri_robot_ws/src/agri_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/agri_bringup
+[4.947s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/agri_bringup -- -j8 -l8
+[5.146s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/agri_robot_ws/build/agri_bringup -- -j8 -l8
+[5.201s] Invoking command in '/home/sunrise/agri_robot_ws/build/agri_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/agri_bringup
+[5.236s] -- Install configuration: ""
+[5.238s] -- Execute custom install script
+[5.240s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/launch/lidar.launch.py
+[5.279s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/launch/start.launch.py
+[5.321s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/ament_index/resource_index/package_run_dependencies/agri_bringup
+[5.371s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/ament_index/resource_index/parent_prefix_path/agri_bringup
+[5.421s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/environment/ament_prefix_path.sh
+[5.468s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/environment/ament_prefix_path.dsv
+[5.518s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/environment/path.sh
+[5.570s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/environment/path.dsv
+[5.622s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/local_setup.bash
+[5.670s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/local_setup.sh
+[5.722s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/local_setup.zsh
+[5.772s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/local_setup.dsv
+[5.823s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/package.dsv
+[5.873s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/ament_index/resource_index/packages/agri_bringup
+[5.922s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/cmake/agri_bringupConfig.cmake
+[5.969s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/cmake/agri_bringupConfig-version.cmake
+[6.021s] -- Symlinking: /home/sunrise/agri_robot_ws/install/agri_bringup/share/agri_bringup/package.xml
+[6.091s] Invoked command in '/home/sunrise/agri_robot_ws/build/agri_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/agri_robot_ws/build/agri_bringup

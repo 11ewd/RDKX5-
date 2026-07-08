@@ -1,0 +1,2213 @@
+[0.000000] (-) TimerEvent: {}
+[0.001822] (-) JobUnselected: {'identifier': 'agri_bringup'}
+[0.002555] (-) JobUnselected: {'identifier': 'agri_car_driver'}
+[0.003347] (-) JobUnselected: {'identifier': 'agri_control'}
+[0.003594] (-) JobUnselected: {'identifier': 'agri_imu_driver'}
+[0.003832] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.004063] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/sunrise/agri_robot_ws/install/lslidar_msgs')])}
+[0.004291] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.045675] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.046981] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/agri_robot_ws/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/lslidar_msgs'], 'cwd': '/home/sunrise/agri_robot_ws/build/lslidar_msgs', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.43.71 60668 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/agri_robot_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/agri_robot_ws/build/lslidar_msgs'), ('SSH_CONNECTION', '192.168.43.71 60668 192.168.43.127 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble')]), 'shell': False}
+[0.098695] (-) TimerEvent: {}
+[0.199552] (-) TimerEvent: {}
+[0.300439] (-) TimerEvent: {}
+[0.401327] (-) TimerEvent: {}
+[0.502186] (-) TimerEvent: {}
+[0.603015] (-) TimerEvent: {}
+[0.647224] (lslidar_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.703194] (-) TimerEvent: {}
+[0.804092] (-) TimerEvent: {}
+[0.905291] (-) TimerEvent: {}
+[1.006174] (-) TimerEvent: {}
+[1.107143] (-) TimerEvent: {}
+[1.208004] (-) TimerEvent: {}
+[1.287207] (lslidar_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.308225] (-) TimerEvent: {}
+[1.338203] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.408392] (-) TimerEvent: {}
+[1.509259] (-) TimerEvent: {}
+[1.610052] (-) TimerEvent: {}
+[1.710851] (-) TimerEvent: {}
+[1.743628] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.811024] (-) TimerEvent: {}
+[1.820685] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.822583] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.825913] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.845994] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.911204] (-) TimerEvent: {}
+[2.012233] (-) TimerEvent: {}
+[2.113181] (-) TimerEvent: {}
+[2.214062] (-) TimerEvent: {}
+[2.273530] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.314224] (-) TimerEvent: {}
+[2.351139] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.352593] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.355428] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.378947] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.414425] (-) TimerEvent: {}
+[2.515290] (-) TimerEvent: {}
+[2.616120] (-) TimerEvent: {}
+[2.717084] (-) TimerEvent: {}
+[2.818198] (-) TimerEvent: {}
+[2.918993] (-) TimerEvent: {}
+[3.019701] (-) TimerEvent: {}
+[3.120493] (-) TimerEvent: {}
+[3.221309] (-) TimerEvent: {}
+[3.322042] (-) TimerEvent: {}
+[3.422788] (-) TimerEvent: {}
+[3.523549] (-) TimerEvent: {}
+[3.624308] (-) TimerEvent: {}
+[3.725140] (-) TimerEvent: {}
+[3.825938] (-) TimerEvent: {}
+[3.926694] (-) TimerEvent: {}
+[4.027428] (-) TimerEvent: {}
+[4.128198] (-) TimerEvent: {}
+[4.229031] (-) TimerEvent: {}
+[4.329757] (-) TimerEvent: {}
+[4.430538] (-) TimerEvent: {}
+[4.531358] (-) TimerEvent: {}
+[4.545785] (lslidar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.631500] (-) TimerEvent: {}
+[4.732332] (-) TimerEvent: {}
+[4.833129] (-) TimerEvent: {}
+[4.933954] (-) TimerEvent: {}
+[4.954079] (lslidar_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.034200] (-) TimerEvent: {}
+[5.097692] (lslidar_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[5.134366] (-) TimerEvent: {}
+[5.235144] (-) TimerEvent: {}
+[5.277563] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.305420] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.335327] (-) TimerEvent: {}
+[5.355006] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.430801] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.435433] (-) TimerEvent: {}
+[5.528520] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.535583] (-) TimerEvent: {}
+[5.636307] (-) TimerEvent: {}
+[5.699456] (lslidar_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.736487] (-) TimerEvent: {}
+[5.837260] (-) TimerEvent: {}
+[5.899813] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.937420] (-) TimerEvent: {}
+[5.952448] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.037549] (-) TimerEvent: {}
+[6.138275] (-) TimerEvent: {}
+[6.238992] (-) TimerEvent: {}
+[6.339846] (-) TimerEvent: {}
+[6.440709] (-) TimerEvent: {}
+[6.541519] (-) TimerEvent: {}
+[6.642314] (-) TimerEvent: {}
+[6.743238] (-) TimerEvent: {}
+[6.844290] (-) TimerEvent: {}
+[6.945009] (-) TimerEvent: {}
+[7.045795] (-) TimerEvent: {}
+[7.146538] (-) TimerEvent: {}
+[7.247298] (-) TimerEvent: {}
+[7.348137] (-) TimerEvent: {}
+[7.448962] (-) TimerEvent: {}
+[7.549690] (-) TimerEvent: {}
+[7.650461] (-) TimerEvent: {}
+[7.751186] (-) TimerEvent: {}
+[7.852017] (-) TimerEvent: {}
+[7.858884] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.952155] (-) TimerEvent: {}
+[8.052897] (-) TimerEvent: {}
+[8.153605] (-) TimerEvent: {}
+[8.254322] (-) TimerEvent: {}
+[8.355147] (-) TimerEvent: {}
+[8.455956] (-) TimerEvent: {}
+[8.556733] (-) TimerEvent: {}
+[8.657428] (-) TimerEvent: {}
+[8.758245] (-) TimerEvent: {}
+[8.859307] (-) TimerEvent: {}
+[8.960026] (-) TimerEvent: {}
+[9.060817] (-) TimerEvent: {}
+[9.161651] (-) TimerEvent: {}
+[9.262473] (-) TimerEvent: {}
+[9.363286] (-) TimerEvent: {}
+[9.464048] (-) TimerEvent: {}
+[9.564756] (-) TimerEvent: {}
+[9.665574] (-) TimerEvent: {}
+[9.766450] (-) TimerEvent: {}
+[9.867254] (-) TimerEvent: {}
+[9.968078] (-) TimerEvent: {}
+[10.068943] (-) TimerEvent: {}
+[10.069941] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.169094] (-) TimerEvent: {}
+[10.269881] (-) TimerEvent: {}
+[10.370756] (-) TimerEvent: {}
+[10.471575] (-) TimerEvent: {}
+[10.572328] (-) TimerEvent: {}
+[10.673095] (-) TimerEvent: {}
+[10.773817] (-) TimerEvent: {}
+[10.874538] (-) TimerEvent: {}
+[10.950010] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.974793] (-) TimerEvent: {}
+[11.075915] (-) TimerEvent: {}
+[11.093025] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[11.107999] (lslidar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.176095] (-) TimerEvent: {}
+[11.276883] (-) TimerEvent: {}
+[11.294362] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[11.295438] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.296043] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.296608] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[11.377027] (-) TimerEvent: {}
+[11.414516] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.477201] (-) TimerEvent: {}
+[11.577965] (-) TimerEvent: {}
+[11.678786] (-) TimerEvent: {}
+[11.779869] (-) TimerEvent: {}
+[11.791318] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.801212] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.807448] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.842619] (lslidar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.880039] (-) TimerEvent: {}
+[11.980866] (-) TimerEvent: {}
+[12.034486] (lslidar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[12.081052] (-) TimerEvent: {}
+[12.094423] (lslidar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/agri_robot_ws/build/lslidar_msgs\n'}
+[12.160569] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[12.169796] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[12.181164] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/agri_robot_ws/build/lslidar_msgs', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/agri_robot_ws/build/lslidar_msgs', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.43.71 60668 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/agri_robot_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/agri_robot_ws/build/lslidar_msgs'), ('SSH_CONNECTION', '192.168.43.71 60668 192.168.43.127 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble')]), 'shell': False}
+[12.184946] (-) TimerEvent: {}
+[12.287052] (-) TimerEvent: {}
+[12.371622] (lslidar_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.387260] (-) TimerEvent: {}
+[12.417023] (lslidar_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.449614] (lslidar_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_lslidar_msgs\n'}
+[12.487446] (-) TimerEvent: {}
+[12.588378] (-) TimerEvent: {}
+[12.689239] (-) TimerEvent: {}
+[12.790092] (-) TimerEvent: {}
+[12.890955] (-) TimerEvent: {}
+[12.991841] (-) TimerEvent: {}
+[13.092653] (-) TimerEvent: {}
+[13.193461] (-) TimerEvent: {}
+[13.294262] (-) TimerEvent: {}
+[13.395065] (-) TimerEvent: {}
+[13.495894] (-) TimerEvent: {}
+[13.596750] (-) TimerEvent: {}
+[13.637179] (lslidar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[13.696908] (-) TimerEvent: {}
+[13.722444] (lslidar_msgs) StdoutLine: {'line': b'creating lslidar_msgs.egg-info\n'}
+[13.723374] (lslidar_msgs) StdoutLine: {'line': b'writing lslidar_msgs.egg-info/PKG-INFO\n'}
+[13.725158] (lslidar_msgs) StdoutLine: {'line': b'writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt\n'}
+[13.726765] (lslidar_msgs) StdoutLine: {'line': b'writing top-level names to lslidar_msgs.egg-info/top_level.txt\n'}
+[13.727569] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[13.797077] (-) TimerEvent: {}
+[13.897860] (-) TimerEvent: {}
+[13.978342] (lslidar_msgs) StdoutLine: {'line': b"reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[13.983539] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[13.998048] (-) TimerEvent: {}
+[14.098954] (-) TimerEvent: {}
+[14.199900] (-) TimerEvent: {}
+[14.203656] (lslidar_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_lslidar_msgs_egg\n'}
+[14.300068] (-) TimerEvent: {}
+[14.401215] (-) TimerEvent: {}
+[14.502003] (-) TimerEvent: {}
+[14.602816] (-) TimerEvent: {}
+[14.703661] (-) TimerEvent: {}
+[14.804468] (-) TimerEvent: {}
+[14.905295] (-) TimerEvent: {}
+[15.006064] (-) TimerEvent: {}
+[15.106919] (-) TimerEvent: {}
+[15.207716] (-) TimerEvent: {}
+[15.308498] (-) TimerEvent: {}
+[15.409273] (-) TimerEvent: {}
+[15.510031] (-) TimerEvent: {}
+[15.610785] (-) TimerEvent: {}
+[15.711541] (-) TimerEvent: {}
+[15.812359] (-) TimerEvent: {}
+[15.913364] (-) TimerEvent: {}
+[16.014417] (-) TimerEvent: {}
+[16.059538] (lslidar_msgs) StdoutLine: {'line': b'[  3%] Built target lslidar_msgs__cpp\n'}
+[16.107964] (lslidar_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.114703] (-) TimerEvent: {}
+[16.123566] (lslidar_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.125355] (lslidar_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.214927] (-) TimerEvent: {}
+[16.315968] (-) TimerEvent: {}
+[16.318373] (lslidar_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__functions.c.o\x1b[0m\n'}
+[16.319404] (lslidar_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__functions.c.o\x1b[0m\n'}
+[16.320191] (lslidar_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__functions.c.o\x1b[0m\n'}
+[16.321750] (lslidar_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__functions.c.o\x1b[0m\n'}
+[16.322907] (lslidar_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o\x1b[0m\n'}
+[16.416210] (-) TimerEvent: {}
+[16.517322] (-) TimerEvent: {}
+[16.618281] (-) TimerEvent: {}
+[16.675958] (lslidar_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library liblslidar_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[16.718469] (-) TimerEvent: {}
+[16.819373] (-) TimerEvent: {}
+[16.882348] (lslidar_msgs) StdoutLine: {'line': b'[ 17%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[16.919584] (-) TimerEvent: {}
+[16.925891] (lslidar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.926789] (lslidar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.927425] (lslidar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[17.019808] (-) TimerEvent: {}
+[17.120667] (-) TimerEvent: {}
+[17.221564] (-) TimerEvent: {}
+[17.322456] (-) TimerEvent: {}
+[17.423398] (-) TimerEvent: {}
+[17.524306] (-) TimerEvent: {}
+[17.625166] (-) TimerEvent: {}
+[17.726025] (-) TimerEvent: {}
+[17.827006] (-) TimerEvent: {}
+[17.927940] (-) TimerEvent: {}
+[18.028906] (-) TimerEvent: {}
+[18.129783] (-) TimerEvent: {}
+[18.230657] (-) TimerEvent: {}
+[18.331525] (-) TimerEvent: {}
+[18.432440] (-) TimerEvent: {}
+[18.533362] (-) TimerEvent: {}
+[18.634301] (-) TimerEvent: {}
+[18.735261] (-) TimerEvent: {}
+[18.836266] (-) TimerEvent: {}
+[18.918088] (lslidar_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[18.918979] (lslidar_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[18.919958] (lslidar_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[18.936642] (-) TimerEvent: {}
+[19.038254] (-) TimerEvent: {}
+[19.139863] (-) TimerEvent: {}
+[19.241581] (-) TimerEvent: {}
+[19.343092] (-) TimerEvent: {}
+[19.444299] (-) TimerEvent: {}
+[19.545541] (-) TimerEvent: {}
+[19.592292] (lslidar_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[19.645820] (-) TimerEvent: {}
+[19.747277] (-) TimerEvent: {}
+[19.777202] (lslidar_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[19.847511] (-) TimerEvent: {}
+[19.948603] (-) TimerEvent: {}
+[19.949617] (lslidar_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[19.977104] (lslidar_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[20.048952] (-) TimerEvent: {}
+[20.115363] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[20.149299] (-) TimerEvent: {}
+[20.250639] (-) TimerEvent: {}
+[20.286635] (lslidar_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[20.350946] (-) TimerEvent: {}
+[20.452253] (-) TimerEvent: {}
+[20.455599] (lslidar_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[20.552594] (-) TimerEvent: {}
+[20.627689] (lslidar_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.634076] (lslidar_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o\x1b[0m\n'}
+[20.652945] (-) TimerEvent: {}
+[20.662328] (lslidar_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_difop__type_support_c.cpp.o\x1b[0m\n'}
+[20.753258] (-) TimerEvent: {}
+[20.821539] (lslidar_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o\x1b[0m\n'}
+[20.839869] (lslidar_msgs) StdoutLine: {'line': b'[ 44%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[20.853553] (-) TimerEvent: {}
+[20.883032] (lslidar_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o\x1b[0m\n'}
+[20.901811] (lslidar_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[20.916684] (lslidar_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[20.935424] (lslidar_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[20.953873] (-) TimerEvent: {}
+[21.019373] (lslidar_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o\x1b[0m\n'}
+[21.054183] (-) TimerEvent: {}
+[21.155326] (-) TimerEvent: {}
+[21.196020] (lslidar_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o\x1b[0m\n'}
+[21.255628] (-) TimerEvent: {}
+[21.356822] (-) TimerEvent: {}
+[21.405997] (lslidar_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o\x1b[0m\n'}
+[21.457085] (-) TimerEvent: {}
+[21.558308] (-) TimerEvent: {}
+[21.623578] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.658623] (-) TimerEvent: {}
+[21.759844] (-) TimerEvent: {}
+[21.795936] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[21.839376] (lslidar_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[21.860158] (-) TimerEvent: {}
+[21.961377] (-) TimerEvent: {}
+[22.062564] (-) TimerEvent: {}
+[22.163809] (-) TimerEvent: {}
+[22.265002] (-) TimerEvent: {}
+[22.292268] (lslidar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[22.365316] (-) TimerEvent: {}
+[22.466545] (-) TimerEvent: {}
+[22.567764] (-) TimerEvent: {}
+[22.668956] (-) TimerEvent: {}
+[22.710326] (lslidar_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[22.769259] (-) TimerEvent: {}
+[22.775550] (lslidar_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[22.794502] (lslidar_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[22.869559] (-) TimerEvent: {}
+[22.971562] (-) TimerEvent: {}
+[22.989091] (lslidar_msgs) StdoutLine: {'line': b'[ 65%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[23.031135] (lslidar_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o\x1b[0m\n'}
+[23.032980] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o\x1b[0m\n'}
+[23.071874] (-) TimerEvent: {}
+[23.164751] (lslidar_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support_c.cpp.o\x1b[0m\n'}
+[23.172173] (-) TimerEvent: {}
+[23.274039] (-) TimerEvent: {}
+[23.376120] (-) TimerEvent: {}
+[23.478040] (-) TimerEvent: {}
+[23.580030] (-) TimerEvent: {}
+[23.682123] (-) TimerEvent: {}
+[23.689934] (lslidar_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[23.782421] (-) TimerEvent: {}
+[23.883632] (-) TimerEvent: {}
+[23.984854] (-) TimerEvent: {}
+[24.086127] (-) TimerEvent: {}
+[24.187442] (-) TimerEvent: {}
+[24.288668] (-) TimerEvent: {}
+[24.389917] (-) TimerEvent: {}
+[24.491159] (-) TimerEvent: {}
+[24.592429] (-) TimerEvent: {}
+[24.618175] (lslidar_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[24.692758] (-) TimerEvent: {}
+[24.794859] (-) TimerEvent: {}
+[24.896905] (-) TimerEvent: {}
+[24.998991] (-) TimerEvent: {}
+[25.012546] (lslidar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[25.099304] (-) TimerEvent: {}
+[25.201311] (-) TimerEvent: {}
+[25.303314] (-) TimerEvent: {}
+[25.404423] (-) TimerEvent: {}
+[25.438088] (lslidar_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[25.504686] (-) TimerEvent: {}
+[25.605800] (-) TimerEvent: {}
+[25.707032] (-) TimerEvent: {}
+[25.720489] (lslidar_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[25.807288] (-) TimerEvent: {}
+[25.908396] (-) TimerEvent: {}
+[25.982471] (lslidar_msgs) StdoutLine: {'line': b'[ 77%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[26.008628] (-) TimerEvent: {}
+[26.109659] (-) TimerEvent: {}
+[26.210738] (-) TimerEvent: {}
+[26.217448] (lslidar_msgs) StdoutLine: {'line': b'[ 77%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[26.310961] (-) TimerEvent: {}
+[26.411880] (-) TimerEvent: {}
+[26.512768] (-) TimerEvent: {}
+[26.613634] (-) TimerEvent: {}
+[26.714574] (-) TimerEvent: {}
+[26.815463] (-) TimerEvent: {}
+[26.916357] (-) TimerEvent: {}
+[27.017233] (-) TimerEvent: {}
+[27.118107] (-) TimerEvent: {}
+[27.218990] (-) TimerEvent: {}
+[27.319858] (-) TimerEvent: {}
+[27.420685] (-) TimerEvent: {}
+[27.521649] (-) TimerEvent: {}
+[27.623265] (-) TimerEvent: {}
+[27.646653] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[27.723472] (-) TimerEvent: {}
+[27.824392] (-) TimerEvent: {}
+[27.925255] (-) TimerEvent: {}
+[28.026103] (-) TimerEvent: {}
+[28.124235] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[28.126198] (-) TimerEvent: {}
+[28.226303] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs\n'}
+[28.227122] (-) TimerEvent: {}
+[28.327815] (-) TimerEvent: {}
+[28.328609] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[28.427946] (-) TimerEvent: {}
+[28.528689] (-) TimerEvent: {}
+[28.629466] (-) TimerEvent: {}
+[28.730247] (-) TimerEvent: {}
+[28.830973] (-) TimerEvent: {}
+[28.931707] (-) TimerEvent: {}
+[29.032441] (-) TimerEvent: {}
+[29.133158] (-) TimerEvent: {}
+[29.233877] (-) TimerEvent: {}
+[29.334585] (-) TimerEvent: {}
+[29.435294] (-) TimerEvent: {}
+[29.536080] (-) TimerEvent: {}
+[29.636793] (-) TimerEvent: {}
+[29.737436] (-) TimerEvent: {}
+[29.838120] (-) TimerEvent: {}
+[29.938852] (-) TimerEvent: {}
+[30.039626] (-) TimerEvent: {}
+[30.140324] (-) TimerEvent: {}
+[30.241026] (-) TimerEvent: {}
+[30.341699] (-) TimerEvent: {}
+[30.442408] (-) TimerEvent: {}
+[30.543112] (-) TimerEvent: {}
+[30.643828] (-) TimerEvent: {}
+[30.744546] (-) TimerEvent: {}
+[30.845265] (-) TimerEvent: {}
+[30.945971] (-) TimerEvent: {}
+[31.046652] (-) TimerEvent: {}
+[31.147363] (-) TimerEvent: {}
+[31.248037] (-) TimerEvent: {}
+[31.348756] (-) TimerEvent: {}
+[31.449471] (-) TimerEvent: {}
+[31.550155] (-) TimerEvent: {}
+[31.650813] (-) TimerEvent: {}
+[31.751507] (-) TimerEvent: {}
+[31.852205] (-) TimerEvent: {}
+[31.952931] (-) TimerEvent: {}
+[32.053643] (-) TimerEvent: {}
+[32.154343] (-) TimerEvent: {}
+[32.255035] (-) TimerEvent: {}
+[32.355710] (-) TimerEvent: {}
+[32.456450] (-) TimerEvent: {}
+[32.557154] (-) TimerEvent: {}
+[32.657875] (-) TimerEvent: {}
+[32.758610] (-) TimerEvent: {}
+[32.859329] (-) TimerEvent: {}
+[32.960047] (-) TimerEvent: {}
+[33.060784] (-) TimerEvent: {}
+[33.161513] (-) TimerEvent: {}
+[33.262226] (-) TimerEvent: {}
+[33.362906] (-) TimerEvent: {}
+[33.463584] (-) TimerEvent: {}
+[33.564266] (-) TimerEvent: {}
+[33.664926] (-) TimerEvent: {}
+[33.765634] (-) TimerEvent: {}
+[33.866666] (-) TimerEvent: {}
+[33.968390] (-) TimerEvent: {}
+[33.979773] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__py\n'}
+[34.068623] (-) TimerEvent: {}
+[34.077664] (lslidar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o\x1b[0m\n'}
+[34.078562] (lslidar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o\x1b[0m\n'}
+[34.079176] (lslidar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o\x1b[0m\n'}
+[34.079771] (lslidar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_sweep_s.c.o\x1b[0m\n'}
+[34.080338] (lslidar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_difop_s.c.o\x1b[0m\n'}
+[34.168845] (-) TimerEvent: {}
+[34.269806] (-) TimerEvent: {}
+[34.370720] (-) TimerEvent: {}
+[34.471599] (-) TimerEvent: {}
+[34.572477] (-) TimerEvent: {}
+[34.673361] (-) TimerEvent: {}
+[34.774429] (-) TimerEvent: {}
+[34.795928] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[34.874656] (-) TimerEvent: {}
+[34.975618] (-) TimerEvent: {}
+[35.034620] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Built target lslidar_msgs__rosidl_generator_py\n'}
+[35.075858] (-) TimerEvent: {}
+[35.127554] (lslidar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[35.128410] (lslidar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[35.129057] (lslidar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[35.176086] (-) TimerEvent: {}
+[35.277031] (-) TimerEvent: {}
+[35.377889] (-) TimerEvent: {}
+[35.478742] (-) TimerEvent: {}
+[35.579608] (-) TimerEvent: {}
+[35.680478] (-) TimerEvent: {}
+[35.762535] (lslidar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[35.763381] (lslidar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[35.763948] (lslidar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[35.780744] (-) TimerEvent: {}
+[35.881846] (-) TimerEvent: {}
+[35.983254] (-) TimerEvent: {}
+[35.990504] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[35.993538] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[35.994432] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[36.061629] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[36.064304] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[36.083437] (-) TimerEvent: {}
+[36.113683] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/agri_robot_ws/build/lslidar_msgs'], 'cwd': '/home/sunrise/agri_robot_ws/build/lslidar_msgs', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.43.71 60668 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/agri_robot_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/agri_robot_ws/build/lslidar_msgs'), ('SSH_CONNECTION', '192.168.43.71 60668 192.168.43.127 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble')]), 'shell': False}
+[36.152682] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.155195] (lslidar_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[36.156599] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[36.183607] (-) TimerEvent: {}
+[36.198104] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h\n'}
+[36.239369] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h\n'}
+[36.283796] (-) TimerEvent: {}
+[36.290120] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h\n'}
+[36.337387] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[36.384170] (-) TimerEvent: {}
+[36.386068] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[36.432280] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[36.480027] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h\n'}
+[36.484406] (-) TimerEvent: {}
+[36.524814] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h\n'}
+[36.575811] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h\n'}
+[36.584633] (-) TimerEvent: {}
+[36.624225] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h\n'}
+[36.673866] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h\n'}
+[36.684822] (-) TimerEvent: {}
+[36.724264] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h\n'}
+[36.774416] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h\n'}
+[36.785022] (-) TimerEvent: {}
+[36.824750] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h\n'}
+[36.871131] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h\n'}
+[36.885214] (-) TimerEvent: {}
+[36.912770] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h\n'}
+[36.964024] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h\n'}
+[36.985445] (-) TimerEvent: {}
+[37.012221] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h\n'}
+[37.062232] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h\n'}
+[37.085682] (-) TimerEvent: {}
+[37.111374] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h\n'}
+[37.159733] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[37.185910] (-) TimerEvent: {}
+[37.209092] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[37.256850] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[37.286137] (-) TimerEvent: {}
+[37.314437] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h\n'}
+[37.355791] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[37.386364] (-) TimerEvent: {}
+[37.406113] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h\n'}
+[37.455353] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[37.486570] (-) TimerEvent: {}
+[37.505761] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h\n'}
+[37.554209] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[37.586861] (-) TimerEvent: {}
+[37.611323] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp\n'}
+[37.656796] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp\n'}
+[37.687066] (-) TimerEvent: {}
+[37.705876] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp\n'}
+[37.756111] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp\n'}
+[37.787278] (-) TimerEvent: {}
+[37.805776] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[37.855068] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[37.887488] (-) TimerEvent: {}
+[37.906551] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[37.955532] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp\n'}
+[37.987726] (-) TimerEvent: {}
+[38.002427] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp\n'}
+[38.044080] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp\n'}
+[38.087939] (-) TimerEvent: {}
+[38.095053] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp\n'}
+[38.144848] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp\n'}
+[38.188161] (-) TimerEvent: {}
+[38.194188] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp\n'}
+[38.244304] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp\n'}
+[38.288452] (-) TimerEvent: {}
+[38.293437] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp\n'}
+[38.343467] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp\n'}
+[38.388671] (-) TimerEvent: {}
+[38.393198] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp\n'}
+[38.444066] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp\n'}
+[38.488888] (-) TimerEvent: {}
+[38.493940] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp\n'}
+[38.544375] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp\n'}
+[38.589102] (-) TimerEvent: {}
+[38.594047] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp\n'}
+[38.643825] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[38.689327] (-) TimerEvent: {}
+[38.693241] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp\n'}
+[38.744146] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp\n'}
+[38.789541] (-) TimerEvent: {}
+[38.793397] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp\n'}
+[38.844947] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[38.889803] (-) TimerEvent: {}
+[38.903421] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[38.951039] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[38.990065] (-) TimerEvent: {}
+[38.998547] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.047384] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.090319] (-) TimerEvent: {}
+[39.096203] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.145701] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[39.190568] (-) TimerEvent: {}
+[39.201910] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h\n'}
+[39.247361] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[39.290809] (-) TimerEvent: {}
+[39.299446] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h\n'}
+[39.344817] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[39.391205] (-) TimerEvent: {}
+[39.394154] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h\n'}
+[39.445987] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[39.491377] (-) TimerEvent: {}
+[39.592383] (-) TimerEvent: {}
+[39.694174] (-) TimerEvent: {}
+[39.711202] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.757147] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.794372] (-) TimerEvent: {}
+[39.806632] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.855835] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.894655] (-) TimerEvent: {}
+[39.902611] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.944227] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[39.993653] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[39.995932] (-) TimerEvent: {}
+[40.048295] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO\n'}
+[40.094580] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[40.096873] (-) TimerEvent: {}
+[40.144898] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[40.195283] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt\n'}
+[40.197581] (-) TimerEvent: {}
+[40.259251] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py\n'}
+[40.297801] (-) TimerEvent: {}
+[40.304994] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[40.353382] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[40.398051] (-) TimerEvent: {}
+[40.403467] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[40.454134] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\n'}
+[40.498299] (-) TimerEvent: {}
+[40.504421] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.556502] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.598550] (-) TimerEvent: {}
+[40.606036] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.656149] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py\n'}
+[40.698788] (-) TimerEvent: {}
+[40.706870] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py\n'}
+[40.756575] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c\n'}
+[40.799029] (-) TimerEvent: {}
+[40.806505] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[40.857422] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[40.899268] (-) TimerEvent: {}
+[40.905991] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py\n'}
+[40.956384] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c\n'}
+[40.999523] (-) TimerEvent: {}
+[41.006635] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py\n'}
+[41.056801] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c\n'}
+[41.099764] (-) TimerEvent: {}
+[41.107800] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py\n'}
+[41.156001] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c\n'}
+[41.200024] (-) TimerEvent: {}
+[41.209711] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[41.214737] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[41.219844] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[41.223441] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl\n'}
+[41.272311] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[41.300262] (-) TimerEvent: {}
+[41.323614] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl\n'}
+[41.372178] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl\n'}
+[41.400512] (-) TimerEvent: {}
+[41.422777] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl\n'}
+[41.474936] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg\n'}
+[41.500752] (-) TimerEvent: {}
+[41.525040] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[41.576654] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg\n'}
+[41.600972] (-) TimerEvent: {}
+[41.627125] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg\n'}
+[41.679005] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg\n'}
+[41.701220] (-) TimerEvent: {}
+[41.728117] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[41.776846] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[41.801461] (-) TimerEvent: {}
+[41.823731] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[41.875476] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[41.901693] (-) TimerEvent: {}
+[41.926477] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[41.977921] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[42.001954] (-) TimerEvent: {}
+[42.028561] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[42.077625] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[42.102211] (-) TimerEvent: {}
+[42.127889] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[42.177987] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[42.202445] (-) TimerEvent: {}
+[42.228502] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[42.276542] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[42.302696] (-) TimerEvent: {}
+[42.325020] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[42.372634] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[42.402937] (-) TimerEvent: {}
+[42.424426] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[42.476259] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[42.503175] (-) TimerEvent: {}
+[42.528261] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[42.577775] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[42.603424] (-) TimerEvent: {}
+[42.627196] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[42.678907] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[42.703665] (-) TimerEvent: {}
+[42.726995] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[42.778182] (lslidar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[42.803903] (-) TimerEvent: {}
+[42.828904] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[42.835113] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""\n'}
+[42.837560] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[42.842688] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[42.844988] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[42.851155] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[42.853463] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[42.858526] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[42.860866] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[42.865141] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""\n'}
+[42.867538] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[42.870765] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[42.871955] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[42.874225] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[42.904083] (-) TimerEvent: {}
+[43.004928] (-) TimerEvent: {}
+[43.093569] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...\n"}
+[43.094513] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...\n"}
+[43.095170] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...\n"}
+[43.095753] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...\n"}
+[43.096277] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py'...\n"}
+[43.096875] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...\n"}
+[43.097330] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py'...\n"}
+[43.097765] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py'...\n"}
+[43.098193] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py'...\n"}
+[43.105116] (-) TimerEvent: {}
+[43.136172] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so\n'}
+[43.142573] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""\n'}
+[43.144832] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[43.147174] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[43.149603] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[43.151958] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[43.154506] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[43.157347] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[43.159891] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[43.162557] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[43.165036] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[43.167808] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[43.170345] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[43.173000] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[43.175520] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[43.177469] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[43.178780] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[43.180187] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake\n'}
+[43.181507] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[43.201717] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[43.205516] (-) TimerEvent: {}
+[43.306229] (-) TimerEvent: {}
+[43.358580] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 0}
+[43.363697] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[43.390922] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[43.392931] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/agri_robot_ws/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/agri_robot_ws/install/lslidar_driver'], 'cwd': '/home/sunrise/agri_robot_ws/build/lslidar_driver', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.43.71 60668 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/agri_robot_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/agri_robot_ws/build/lslidar_driver'), ('SSH_CONNECTION', '192.168.43.71 60668 192.168.43.127 22'), ('PYTHONPATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble')]), 'shell': False}
+[43.406433] (-) TimerEvent: {}
+[43.507303] (-) TimerEvent: {}
+[43.608170] (-) TimerEvent: {}
+[43.695851] (lslidar_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[43.708340] (-) TimerEvent: {}
+[43.809166] (-) TimerEvent: {}
+[43.909979] (-) TimerEvent: {}
+[44.010804] (-) TimerEvent: {}
+[44.016568] (lslidar_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[44.053282] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[44.110990] (-) TimerEvent: {}
+[44.211893] (-) TimerEvent: {}
+[44.312786] (-) TimerEvent: {}
+[44.412693] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[44.413396] (-) TimerEvent: {}
+[44.484067] (lslidar_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[44.485315] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[44.487477] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[44.502352] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[44.513570] (-) TimerEvent: {}
+[44.614341] (-) TimerEvent: {}
+[44.715225] (-) TimerEvent: {}
+[44.816096] (-) TimerEvent: {}
+[44.900293] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[44.916245] (-) TimerEvent: {}
+[44.954351] (lslidar_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[44.955753] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[44.958375] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[45.016454] (-) TimerEvent: {}
+[45.117342] (-) TimerEvent: {}
+[45.218278] (-) TimerEvent: {}
+[45.319190] (-) TimerEvent: {}
+[45.420197] (-) TimerEvent: {}
+[45.521340] (-) TimerEvent: {}
+[45.622208] (-) TimerEvent: {}
+[45.723128] (-) TimerEvent: {}
+[45.807993] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[45.823368] (-) TimerEvent: {}
+[45.829965] (lslidar_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[45.923517] (-) TimerEvent: {}
+[46.024415] (-) TimerEvent: {}
+[46.125273] (-) TimerEvent: {}
+[46.226032] (-) TimerEvent: {}
+[46.326846] (-) TimerEvent: {}
+[46.427618] (-) TimerEvent: {}
+[46.528431] (-) TimerEvent: {}
+[46.629171] (-) TimerEvent: {}
+[46.729893] (-) TimerEvent: {}
+[46.830595] (-) TimerEvent: {}
+[46.931326] (-) TimerEvent: {}
+[47.032103] (-) TimerEvent: {}
+[47.132928] (-) TimerEvent: {}
+[47.233823] (-) TimerEvent: {}
+[47.334660] (-) TimerEvent: {}
+[47.435396] (-) TimerEvent: {}
+[47.536116] (-) TimerEvent: {}
+[47.636882] (-) TimerEvent: {}
+[47.737575] (-) TimerEvent: {}
+[47.838279] (-) TimerEvent: {}
+[47.939051] (-) TimerEvent: {}
+[48.040110] (-) TimerEvent: {}
+[48.050304] (lslidar_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[48.140244] (-) TimerEvent: {}
+[48.240981] (-) TimerEvent: {}
+[48.341711] (-) TimerEvent: {}
+[48.442466] (-) TimerEvent: {}
+[48.461771] (lslidar_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[48.542690] (-) TimerEvent: {}
+[48.643565] (-) TimerEvent: {}
+[48.744376] (-) TimerEvent: {}
+[48.782723] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[48.805933] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[48.844539] (-) TimerEvent: {}
+[48.846561] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[48.911033] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[48.944702] (-) TimerEvent: {}
+[48.995951] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[49.044876] (-) TimerEvent: {}
+[49.145695] (-) TimerEvent: {}
+[49.246505] (-) TimerEvent: {}
+[49.253866] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[49.269419] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[49.346663] (-) TimerEvent: {}
+[49.447440] (-) TimerEvent: {}
+[49.548251] (-) TimerEvent: {}
+[49.649202] (-) TimerEvent: {}
+[49.741630] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[49.749339] (-) TimerEvent: {}
+[49.850153] (-) TimerEvent: {}
+[49.868541] (lslidar_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[49.950371] (-) TimerEvent: {}
+[50.046594] (lslidar_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[50.050471] (-) TimerEvent: {}
+[50.091959] (lslidar_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[50.150652] (-) TimerEvent: {}
+[50.251435] (-) TimerEvent: {}
+[50.352243] (-) TimerEvent: {}
+[50.453025] (-) TimerEvent: {}
+[50.459269] (lslidar_driver) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[50.511280] (lslidar_driver) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[50.553208] (-) TimerEvent: {}
+[50.654127] (-) TimerEvent: {}
+[50.672526] (lslidar_driver) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[50.673819] (lslidar_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[50.754320] (-) TimerEvent: {}
+[50.765455] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[50.832526] (lslidar_driver) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[50.854479] (-) TimerEvent: {}
+[50.886486] (lslidar_driver) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[50.954661] (-) TimerEvent: {}
+[51.055585] (-) TimerEvent: {}
+[51.087230] (lslidar_driver) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  \n'}
+[51.088121] (lslidar_driver) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[51.155729] (-) TimerEvent: {}
+[51.256545] (-) TimerEvent: {}
+[51.301748] (lslidar_driver) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  \n'}
+[51.335837] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[51.356700] (-) TimerEvent: {}
+[51.457508] (-) TimerEvent: {}
+[51.558385] (-) TimerEvent: {}
+[51.659255] (-) TimerEvent: {}
+[51.760120] (-) TimerEvent: {}
+[51.860933] (-) TimerEvent: {}
+[51.961762] (-) TimerEvent: {}
+[52.062554] (-) TimerEvent: {}
+[52.148634] (lslidar_driver) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[52.155619] (lslidar_driver) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[52.162739] (-) TimerEvent: {}
+[52.182976] (lslidar_driver) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[52.249374] (lslidar_driver) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[52.262863] (-) TimerEvent: {}
+[52.359948] (lslidar_driver) StdoutLine: {'line': b'-- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[52.362985] (-) TimerEvent: {}
+[52.451460] (lslidar_driver) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[52.463144] (-) TimerEvent: {}
+[52.563884] (-) TimerEvent: {}
+[52.664673] (-) TimerEvent: {}
+[52.765437] (-) TimerEvent: {}
+[52.866322] (-) TimerEvent: {}
+[52.941867] (lslidar_driver) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[52.945814] (lslidar_driver) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so\n'}
+[52.966519] (-) TimerEvent: {}
+[53.067412] (-) TimerEvent: {}
+[53.168379] (-) TimerEvent: {}
+[53.269373] (-) TimerEvent: {}
+[53.338422] (lslidar_driver) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found\n'}
+[53.339314] (lslidar_driver) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[53.369562] (-) TimerEvent: {}
+[53.470477] (-) TimerEvent: {}
+[53.571408] (-) TimerEvent: {}
+[53.672319] (-) TimerEvent: {}
+[53.674104] (lslidar_driver) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[53.674860] (lslidar_driver) StdoutLine: {'line': b'-- Looking for connect\n'}
+[53.772513] (-) TimerEvent: {}
+[53.873368] (-) TimerEvent: {}
+[53.974286] (-) TimerEvent: {}
+[54.062595] (lslidar_driver) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[54.063466] (lslidar_driver) StdoutLine: {'line': b'-- Looking for remove\n'}
+[54.074450] (-) TimerEvent: {}
+[54.175486] (-) TimerEvent: {}
+[54.276339] (-) TimerEvent: {}
+[54.377217] (-) TimerEvent: {}
+[54.442521] (lslidar_driver) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[54.443343] (lslidar_driver) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[54.477418] (-) TimerEvent: {}
+[54.578563] (-) TimerEvent: {}
+[54.679445] (-) TimerEvent: {}
+[54.780360] (-) TimerEvent: {}
+[54.814331] (lslidar_driver) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[54.815185] (lslidar_driver) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[54.880555] (-) TimerEvent: {}
+[54.981531] (-) TimerEvent: {}
+[55.082717] (-) TimerEvent: {}
+[55.183840] (-) TimerEvent: {}
+[55.203614] (lslidar_driver) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[55.283968] (-) TimerEvent: {}
+[55.384827] (-) TimerEvent: {}
+[55.485620] (-) TimerEvent: {}
+[55.586483] (-) TimerEvent: {}
+[55.685246] (lslidar_driver) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[55.686581] (-) TimerEvent: {}
+[55.695958] (lslidar_driver) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  \n'}
+[55.711456] (lslidar_driver) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[55.725987] (lslidar_driver) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[55.786785] (-) TimerEvent: {}
+[55.884783] (lslidar_driver) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") \n'}
+[55.886885] (-) TimerEvent: {}
+[55.918143] (lslidar_driver) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[55.942063] (lslidar_driver) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[55.971181] (lslidar_driver) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[55.987074] (-) TimerEvent: {}
+[56.087882] (-) TimerEvent: {}
+[56.188694] (-) TimerEvent: {}
+[56.289610] (-) TimerEvent: {}
+[56.349788] (lslidar_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[56.389798] (-) TimerEvent: {}
+[56.412905] (lslidar_driver) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[56.490032] (-) TimerEvent: {}
+[56.591206] (-) TimerEvent: {}
+[56.596290] (lslidar_driver) StdoutLine: {'line': b'-- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  \n'}
+[56.602202] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[56.603038] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[56.691366] (-) TimerEvent: {}
+[56.792237] (-) TimerEvent: {}
+[56.856749] (lslidar_driver) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[56.857689] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[56.858449] (lslidar_driver) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[56.892402] (-) TimerEvent: {}
+[56.993204] (-) TimerEvent: {}
+[57.093979] (-) TimerEvent: {}
+[57.194765] (-) TimerEvent: {}
+[57.295575] (-) TimerEvent: {}
+[57.396385] (-) TimerEvent: {}
+[57.497239] (-) TimerEvent: {}
+[57.598002] (-) TimerEvent: {}
+[57.698765] (-) TimerEvent: {}
+[57.792453] (lslidar_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[57.798911] (-) TimerEvent: {}
+[57.820617] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[57.847924] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[57.899082] (-) TimerEvent: {}
+[57.999866] (-) TimerEvent: {}
+[58.100656] (-) TimerEvent: {}
+[58.201437] (-) TimerEvent: {}
+[58.302257] (-) TimerEvent: {}
+[58.403085] (-) TimerEvent: {}
+[58.503917] (-) TimerEvent: {}
+[58.604718] (-) TimerEvent: {}
+[58.705510] (-) TimerEvent: {}
+[58.746525] (lslidar_driver) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[58.805674] (-) TimerEvent: {}
+[58.906495] (-) TimerEvent: {}
+[59.007263] (-) TimerEvent: {}
+[59.108048] (-) TimerEvent: {}
+[59.208840] (-) TimerEvent: {}
+[59.309632] (-) TimerEvent: {}
+[59.410464] (-) TimerEvent: {}
+[59.511244] (-) TimerEvent: {}
+[59.612027] (-) TimerEvent: {}
+[59.662369] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[59.712187] (-) TimerEvent: {}
+[59.812969] (-) TimerEvent: {}
+[59.913760] (-) TimerEvent: {}
+[60.014600] (-) TimerEvent: {}
+[60.115462] (-) TimerEvent: {}
+[60.216303] (-) TimerEvent: {}
+[60.317183] (-) TimerEvent: {}
+[60.418009] (-) TimerEvent: {}
+[60.518810] (-) TimerEvent: {}
+[60.557034] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[60.562043] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[60.563031] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[60.568120] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[60.569065] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[60.574089] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[60.575016] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[60.580161] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[60.581208] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[60.586322] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[60.587408] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[60.592552] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[60.593819] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[60.595239] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[60.596334] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[60.597794] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[60.598588] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[60.603911] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[60.605418] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[60.610644] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[60.612047] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[60.617234] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[60.618182] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[60.618874] (-) TimerEvent: {}
+[60.623594] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[60.625361] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[60.630704] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[60.632350] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[60.637600] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[60.638974] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[60.644250] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[60.645826] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[60.651163] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[60.652625] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[60.657805] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[60.659102] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[60.664277] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[60.666255] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[60.671493] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[60.672566] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[60.677693] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[60.681359] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[60.682927] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[60.683750] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[60.685316] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[60.686080] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[60.688746] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[60.689490] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[60.694890] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[60.696238] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[60.701519] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[60.706654] (lslidar_driver) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[60.715360] (lslidar_driver) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[60.719019] (-) TimerEvent: {}
+[60.819697] (-) TimerEvent: {}
+[60.837964] (lslidar_driver) StdoutLine: {'line': b'-- Found lslidar_msgs: 1.2.0 (/home/sunrise/agri_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)\n'}
+[60.919864] (-) TimerEvent: {}
+[60.924238] (lslidar_driver) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[61.020026] (-) TimerEvent: {}
+[61.041895] (lslidar_driver) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[61.120191] (-) TimerEvent: {}
+[61.220959] (-) TimerEvent: {}
+[61.321773] (-) TimerEvent: {}
+[61.422584] (-) TimerEvent: {}
+[61.523325] (-) TimerEvent: {}
+[61.624009] (-) TimerEvent: {}
+[61.724702] (-) TimerEvent: {}
+[61.825445] (-) TimerEvent: {}
+[61.870366] (lslidar_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[61.925616] (-) TimerEvent: {}
+[62.026438] (-) TimerEvent: {}
+[62.127198] (-) TimerEvent: {}
+[62.227946] (-) TimerEvent: {}
+[62.306998] (lslidar_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[62.328117] (-) TimerEvent: {}
+[62.390560] (lslidar_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/agri_robot_ws/build/lslidar_driver\n'}
+[62.428348] (-) TimerEvent: {}
+[62.519231] (lslidar_driver) CommandEnded: {'returncode': 0}
+[62.523036] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'build'}
+[62.525952] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/agri_robot_ws/build/lslidar_driver', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/agri_robot_ws/build/lslidar_driver', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.43.71 60668 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/agri_robot_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/agri_robot_ws/build/lslidar_driver'), ('SSH_CONNECTION', '192.168.43.71 60668 192.168.43.127 22'), ('PYTHONPATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble')]), 'shell': False}
+[62.530071] (-) TimerEvent: {}
+[62.632235] (-) TimerEvent: {}
+[62.733100] (-) TimerEvent: {}
+[62.762867] (lslidar_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o\x1b[0m\n'}
+[62.763777] (lslidar_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o\x1b[0m\n'}
+[62.764391] (lslidar_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o\x1b[0m\n'}
+[62.764947] (lslidar_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o\x1b[0m\n'}
+[62.833309] (-) TimerEvent: {}
+[62.934162] (-) TimerEvent: {}
+[63.035098] (-) TimerEvent: {}
+[63.136009] (-) TimerEvent: {}
+[63.236944] (-) TimerEvent: {}
+[63.337832] (-) TimerEvent: {}
+[63.438733] (-) TimerEvent: {}
+[63.539601] (-) TimerEvent: {}
+[63.640453] (-) TimerEvent: {}
+[63.741312] (-) TimerEvent: {}
+[63.842138] (-) TimerEvent: {}
+[63.942946] (-) TimerEvent: {}
+[64.043777] (-) TimerEvent: {}
+[64.144655] (-) TimerEvent: {}
+[64.245536] (-) TimerEvent: {}
+[64.346459] (-) TimerEvent: {}
+[64.447364] (-) TimerEvent: {}
+[64.548221] (-) TimerEvent: {}
+[64.649107] (-) TimerEvent: {}
+[64.749998] (-) TimerEvent: {}
+[64.850877] (-) TimerEvent: {}
+[64.951834] (-) TimerEvent: {}
+[65.052899] (-) TimerEvent: {}
+[65.153901] (-) TimerEvent: {}
+[65.254792] (-) TimerEvent: {}
+[65.355658] (-) TimerEvent: {}
+[65.456531] (-) TimerEvent: {}
+[65.557359] (-) TimerEvent: {}
+[65.658278] (-) TimerEvent: {}
+[65.759147] (-) TimerEvent: {}
+[65.860020] (-) TimerEvent: {}
+[65.960887] (-) TimerEvent: {}
+[66.061785] (-) TimerEvent: {}
+[66.162661] (-) TimerEvent: {}
+[66.263531] (-) TimerEvent: {}
+[66.364368] (-) TimerEvent: {}
+[66.465189] (-) TimerEvent: {}
+[66.566015] (-) TimerEvent: {}
+[66.666905] (-) TimerEvent: {}
+[66.767738] (-) TimerEvent: {}
+[66.868575] (-) TimerEvent: {}
+[66.969399] (-) TimerEvent: {}
+[67.070284] (-) TimerEvent: {}
+[67.171159] (-) TimerEvent: {}
+[67.272022] (-) TimerEvent: {}
+[67.372877] (-) TimerEvent: {}
+[67.473712] (-) TimerEvent: {}
+[67.574545] (-) TimerEvent: {}
+[67.675383] (-) TimerEvent: {}
+[67.776297] (-) TimerEvent: {}
+[67.877302] (-) TimerEvent: {}
+[67.978140] (-) TimerEvent: {}
+[68.079026] (-) TimerEvent: {}
+[68.179905] (-) TimerEvent: {}
+[68.280716] (-) TimerEvent: {}
+[68.381548] (-) TimerEvent: {}
+[68.482436] (-) TimerEvent: {}
+[68.583318] (-) TimerEvent: {}
+[68.684166] (-) TimerEvent: {}
+[68.785019] (-) TimerEvent: {}
+[68.885875] (-) TimerEvent: {}
+[68.986739] (-) TimerEvent: {}
+[69.087608] (-) TimerEvent: {}
+[69.188463] (-) TimerEvent: {}
+[69.289316] (-) TimerEvent: {}
+[69.390191] (-) TimerEvent: {}
+[69.491211] (-) TimerEvent: {}
+[69.592064] (-) TimerEvent: {}
+[69.692886] (-) TimerEvent: {}
+[69.793743] (-) TimerEvent: {}
+[69.894587] (-) TimerEvent: {}
+[69.995477] (-) TimerEvent: {}
+[70.096362] (-) TimerEvent: {}
+[70.197275] (-) TimerEvent: {}
+[70.298153] (-) TimerEvent: {}
+[70.399029] (-) TimerEvent: {}
+[70.499889] (-) TimerEvent: {}
+[70.600795] (-) TimerEvent: {}
+[70.701846] (-) TimerEvent: {}
+[70.802743] (-) TimerEvent: {}
+[70.903595] (-) TimerEvent: {}
+[71.004482] (-) TimerEvent: {}
+[71.105360] (-) TimerEvent: {}
+[71.206253] (-) TimerEvent: {}
+[71.307160] (-) TimerEvent: {}
+[71.407994] (-) TimerEvent: {}
+[71.508823] (-) TimerEvent: {}
+[71.609688] (-) TimerEvent: {}
+[71.710533] (-) TimerEvent: {}
+[71.811348] (-) TimerEvent: {}
+[71.912155] (-) TimerEvent: {}
+[72.012972] (-) TimerEvent: {}
+[72.113865] (-) TimerEvent: {}
+[72.214703] (-) TimerEvent: {}
+[72.315540] (-) TimerEvent: {}
+[72.416358] (-) TimerEvent: {}
+[72.517258] (-) TimerEvent: {}
+[72.618123] (-) TimerEvent: {}
+[72.718963] (-) TimerEvent: {}
+[72.819810] (-) TimerEvent: {}
+[72.920633] (-) TimerEvent: {}
+[73.021520] (-) TimerEvent: {}
+[73.122426] (-) TimerEvent: {}
+[73.223284] (-) TimerEvent: {}
+[73.324162] (-) TimerEvent: {}
+[73.425043] (-) TimerEvent: {}
+[73.525879] (-) TimerEvent: {}
+[73.626746] (-) TimerEvent: {}
+[73.727552] (-) TimerEvent: {}
+[73.828368] (-) TimerEvent: {}
+[73.929224] (-) TimerEvent: {}
+[74.030111] (-) TimerEvent: {}
+[74.130966] (-) TimerEvent: {}
+[74.231800] (-) TimerEvent: {}
+[74.332655] (-) TimerEvent: {}
+[74.433504] (-) TimerEvent: {}
+[74.534343] (-) TimerEvent: {}
+[74.635189] (-) TimerEvent: {}
+[74.735999] (-) TimerEvent: {}
+[74.836806] (-) TimerEvent: {}
+[74.937590] (-) TimerEvent: {}
+[75.038431] (-) TimerEvent: {}
+[75.139327] (-) TimerEvent: {}
+[75.240182] (-) TimerEvent: {}
+[75.341013] (-) TimerEvent: {}
+[75.441817] (-) TimerEvent: {}
+[75.542611] (-) TimerEvent: {}
+[75.643402] (-) TimerEvent: {}
+[75.744185] (-) TimerEvent: {}
+[75.845011] (-) TimerEvent: {}
+[75.945875] (-) TimerEvent: {}
+[76.046857] (-) TimerEvent: {}
+[76.147790] (-) TimerEvent: {}
+[76.248688] (-) TimerEvent: {}
+[76.349563] (-) TimerEvent: {}
+[76.450397] (-) TimerEvent: {}
+[76.551227] (-) TimerEvent: {}
+[76.652056] (-) TimerEvent: {}
+[76.752868] (-) TimerEvent: {}
+[76.853725] (-) TimerEvent: {}
+[76.954589] (-) TimerEvent: {}
+[77.055478] (-) TimerEvent: {}
+[77.156342] (-) TimerEvent: {}
+[77.257226] (-) TimerEvent: {}
+[77.358076] (-) TimerEvent: {}
+[77.458930] (-) TimerEvent: {}
+[77.559787] (-) TimerEvent: {}
+[77.660649] (-) TimerEvent: {}
+[77.761515] (-) TimerEvent: {}
+[77.862397] (-) TimerEvent: {}
+[77.963301] (-) TimerEvent: {}
+[78.064215] (-) TimerEvent: {}
+[78.165109] (-) TimerEvent: {}
+[78.265995] (-) TimerEvent: {}
+[78.366940] (-) TimerEvent: {}
+[78.467883] (-) TimerEvent: {}
+[78.568702] (-) TimerEvent: {}
+[78.669529] (-) TimerEvent: {}
+[78.770377] (-) TimerEvent: {}
+[78.871212] (-) TimerEvent: {}
+[78.972127] (-) TimerEvent: {}
+[79.073046] (-) TimerEvent: {}
+[79.173962] (-) TimerEvent: {}
+[79.274827] (-) TimerEvent: {}
+[79.375712] (-) TimerEvent: {}
+[79.476583] (-) TimerEvent: {}
+[79.577439] (-) TimerEvent: {}
+[79.678283] (-) TimerEvent: {}
+[79.779100] (-) TimerEvent: {}
+[79.879930] (-) TimerEvent: {}
+[79.980754] (-) TimerEvent: {}
+[80.081664] (-) TimerEvent: {}
+[80.182571] (-) TimerEvent: {}
+[80.283461] (-) TimerEvent: {}
+[80.384323] (-) TimerEvent: {}
+[80.485186] (-) TimerEvent: {}
+[80.586031] (-) TimerEvent: {}
+[80.686910] (-) TimerEvent: {}
+[80.787748] (-) TimerEvent: {}
+[80.888613] (-) TimerEvent: {}
+[80.989529] (-) TimerEvent: {}
+[81.090427] (-) TimerEvent: {}
+[81.191264] (-) TimerEvent: {}
+[81.292071] (-) TimerEvent: {}
+[81.392897] (-) TimerEvent: {}
+[81.493711] (-) TimerEvent: {}
+[81.594512] (-) TimerEvent: {}
+[81.695332] (-) TimerEvent: {}
+[81.796171] (-) TimerEvent: {}
+[81.897025] (-) TimerEvent: {}
+[81.997834] (-) TimerEvent: {}
+[82.098659] (-) TimerEvent: {}
+[82.199476] (-) TimerEvent: {}
+[82.300282] (-) TimerEvent: {}
+[82.401088] (-) TimerEvent: {}
+[82.501905] (-) TimerEvent: {}
+[82.602726] (-) TimerEvent: {}
+[82.703534] (-) TimerEvent: {}
+[82.804343] (-) TimerEvent: {}
+[82.905152] (-) TimerEvent: {}
+[83.005949] (-) TimerEvent: {}
+[83.106864] (-) TimerEvent: {}
+[83.207705] (-) TimerEvent: {}
+[83.308524] (-) TimerEvent: {}
+[83.409335] (-) TimerEvent: {}
+[83.510168] (-) TimerEvent: {}
+[83.610993] (-) TimerEvent: {}
+[83.711813] (-) TimerEvent: {}
+[83.812639] (-) TimerEvent: {}
+[83.913456] (-) TimerEvent: {}
+[84.014254] (-) TimerEvent: {}
+[84.115078] (-) TimerEvent: {}
+[84.215891] (-) TimerEvent: {}
+[84.316725] (-) TimerEvent: {}
+[84.417519] (-) TimerEvent: {}
+[84.518310] (-) TimerEvent: {}
+[84.619108] (-) TimerEvent: {}
+[84.719914] (-) TimerEvent: {}
+[84.820725] (-) TimerEvent: {}
+[84.921545] (-) TimerEvent: {}
+[85.022400] (-) TimerEvent: {}
+[85.123262] (-) TimerEvent: {}
+[85.224117] (-) TimerEvent: {}
+[85.324947] (-) TimerEvent: {}
+[85.425744] (-) TimerEvent: {}
+[85.526550] (-) TimerEvent: {}
+[85.627372] (-) TimerEvent: {}
+[85.728184] (-) TimerEvent: {}
+[85.828994] (-) TimerEvent: {}
+[85.929791] (-) TimerEvent: {}
+[86.030613] (-) TimerEvent: {}
+[86.131426] (-) TimerEvent: {}
+[86.232226] (-) TimerEvent: {}
+[86.333022] (-) TimerEvent: {}
+[86.433839] (-) TimerEvent: {}
+[86.534625] (-) TimerEvent: {}
+[86.635403] (-) TimerEvent: {}
+[86.736179] (-) TimerEvent: {}
+[86.837014] (-) TimerEvent: {}
+[86.937785] (-) TimerEvent: {}
+[87.038552] (-) TimerEvent: {}
+[87.139358] (-) TimerEvent: {}
+[87.240183] (-) TimerEvent: {}
+[87.340971] (-) TimerEvent: {}
+[87.441760] (-) TimerEvent: {}
+[87.542566] (-) TimerEvent: {}
+[87.643373] (-) TimerEvent: {}
+[87.744197] (-) TimerEvent: {}
+[87.845034] (-) TimerEvent: {}
+[87.945840] (-) TimerEvent: {}
+[88.046668] (-) TimerEvent: {}
+[88.147489] (-) TimerEvent: {}
+[88.248300] (-) TimerEvent: {}
+[88.349113] (-) TimerEvent: {}
+[88.449928] (-) TimerEvent: {}
+[88.550740] (-) TimerEvent: {}
+[88.651573] (-) TimerEvent: {}
+[88.752390] (-) TimerEvent: {}
+[88.853201] (-) TimerEvent: {}
+[88.954021] (-) TimerEvent: {}
+[89.054840] (-) TimerEvent: {}
+[89.155639] (-) TimerEvent: {}
+[89.256464] (-) TimerEvent: {}
+[89.357258] (-) TimerEvent: {}
+[89.458050] (-) TimerEvent: {}
+[89.558860] (-) TimerEvent: {}
+[89.659663] (-) TimerEvent: {}
+[89.760463] (-) TimerEvent: {}
+[89.861271] (-) TimerEvent: {}
+[89.962052] (-) TimerEvent: {}
+[90.062915] (-) TimerEvent: {}
+[90.163808] (-) TimerEvent: {}
+[90.264672] (-) TimerEvent: {}
+[90.365502] (-) TimerEvent: {}
+[90.466298] (-) TimerEvent: {}
+[90.567126] (-) TimerEvent: {}
+[90.667962] (-) TimerEvent: {}
+[90.768778] (-) TimerEvent: {}
+[90.869597] (-) TimerEvent: {}
+[90.970415] (-) TimerEvent: {}
+[91.071286] (-) TimerEvent: {}
+[91.172304] (-) TimerEvent: {}
+[91.273133] (-) TimerEvent: {}
+[91.373956] (-) TimerEvent: {}
+[91.474781] (-) TimerEvent: {}
+[91.575618] (-) TimerEvent: {}
+[91.676469] (-) TimerEvent: {}
+[91.777280] (-) TimerEvent: {}
+[91.878078] (-) TimerEvent: {}
+[91.978886] (-) TimerEvent: {}
+[92.079715] (-) TimerEvent: {}
+[92.180545] (-) TimerEvent: {}
+[92.281434] (-) TimerEvent: {}
+[92.382252] (-) TimerEvent: {}
+[92.483064] (-) TimerEvent: {}
+[92.583862] (-) TimerEvent: {}
+[92.684706] (-) TimerEvent: {}
+[92.785552] (-) TimerEvent: {}
+[92.886378] (-) TimerEvent: {}
+[92.987251] (-) TimerEvent: {}
+[93.088051] (-) TimerEvent: {}
+[93.188828] (-) TimerEvent: {}
+[93.289632] (-) TimerEvent: {}
+[93.390439] (-) TimerEvent: {}
+[93.491283] (-) TimerEvent: {}
+[93.592106] (-) TimerEvent: {}
+[93.692899] (-) TimerEvent: {}
+[93.793735] (-) TimerEvent: {}
+[93.894532] (-) TimerEvent: {}
+[93.995340] (-) TimerEvent: {}
+[94.096147] (-) TimerEvent: {}
+[94.197017] (-) TimerEvent: {}
+[94.297822] (-) TimerEvent: {}
+[94.398608] (-) TimerEvent: {}
+[94.499376] (-) TimerEvent: {}
+[94.600164] (-) TimerEvent: {}
+[94.700954] (-) TimerEvent: {}
+[94.801732] (-) TimerEvent: {}
+[94.902509] (-) TimerEvent: {}
+[95.003305] (-) TimerEvent: {}
+[95.104148] (-) TimerEvent: {}
+[95.205061] (-) TimerEvent: {}
+[95.305884] (-) TimerEvent: {}
+[95.406761] (-) TimerEvent: {}
+[95.507603] (-) TimerEvent: {}
+[95.608420] (-) TimerEvent: {}
+[95.709248] (-) TimerEvent: {}
+[95.810084] (-) TimerEvent: {}
+[95.910894] (-) TimerEvent: {}
+[96.011690] (-) TimerEvent: {}
+[96.112489] (-) TimerEvent: {}
+[96.213299] (-) TimerEvent: {}
+[96.314107] (-) TimerEvent: {}
+[96.414953] (-) TimerEvent: {}
+[96.515786] (-) TimerEvent: {}
+[96.616606] (-) TimerEvent: {}
+[96.717421] (-) TimerEvent: {}
+[96.818208] (-) TimerEvent: {}
+[96.918989] (-) TimerEvent: {}
+[97.019783] (-) TimerEvent: {}
+[97.120601] (-) TimerEvent: {}
+[97.221413] (-) TimerEvent: {}
+[97.322215] (-) TimerEvent: {}
+[97.423008] (-) TimerEvent: {}
+[97.523811] (-) TimerEvent: {}
+[97.624636] (-) TimerEvent: {}
+[97.725439] (-) TimerEvent: {}
+[97.826227] (-) TimerEvent: {}
+[97.927101] (-) TimerEvent: {}
+[98.027924] (-) TimerEvent: {}
+[98.128721] (-) TimerEvent: {}
+[98.229516] (-) TimerEvent: {}
+[98.330311] (-) TimerEvent: {}
+[98.431119] (-) TimerEvent: {}
+[98.531940] (-) TimerEvent: {}
+[98.632761] (-) TimerEvent: {}
+[98.733559] (-) TimerEvent: {}
+[98.834365] (-) TimerEvent: {}
+[98.935204] (-) TimerEvent: {}
+[99.036019] (-) TimerEvent: {}
+[99.136924] (-) TimerEvent: {}
+[99.237758] (-) TimerEvent: {}
+[99.338553] (-) TimerEvent: {}
+[99.439354] (-) TimerEvent: {}
+[99.540153] (-) TimerEvent: {}
+[99.640951] (-) TimerEvent: {}
+[99.741737] (-) TimerEvent: {}
+[99.842521] (-) TimerEvent: {}
+[99.943309] (-) TimerEvent: {}
+[100.044094] (-) TimerEvent: {}
+[100.144961] (-) TimerEvent: {}
+[100.245852] (-) TimerEvent: {}
+[100.346726] (-) TimerEvent: {}
+[100.447541] (-) TimerEvent: {}
+[100.548354] (-) TimerEvent: {}
+[100.649174] (-) TimerEvent: {}
+[100.749977] (-) TimerEvent: {}
+[100.850767] (-) TimerEvent: {}
+[100.951583] (-) TimerEvent: {}
+[101.052392] (-) TimerEvent: {}
+[101.153230] (-) TimerEvent: {}
+[101.254034] (-) TimerEvent: {}
+[101.354891] (-) TimerEvent: {}
+[101.455748] (-) TimerEvent: {}
+[101.556570] (-) TimerEvent: {}
+[101.657374] (-) TimerEvent: {}
+[101.758181] (-) TimerEvent: {}
+[101.859007] (-) TimerEvent: {}
+[101.959826] (-) TimerEvent: {}
+[102.060630] (-) TimerEvent: {}
+[102.161438] (-) TimerEvent: {}
+[102.262246] (-) TimerEvent: {}
+[102.363059] (-) TimerEvent: {}
+[102.463876] (-) TimerEvent: {}
+[102.564674] (-) TimerEvent: {}
+[102.665465] (-) TimerEvent: {}
+[102.766263] (-) TimerEvent: {}
+[102.867158] (-) TimerEvent: {}
+[102.967958] (-) TimerEvent: {}
+[103.068782] (-) TimerEvent: {}
+[103.169638] (-) TimerEvent: {}
+[103.270469] (-) TimerEvent: {}
+[103.371279] (-) TimerEvent: {}
+[103.472114] (-) TimerEvent: {}
+[103.572906] (-) TimerEvent: {}
+[103.673710] (-) TimerEvent: {}
+[103.774516] (-) TimerEvent: {}
+[103.875320] (-) TimerEvent: {}
+[103.976129] (-) TimerEvent: {}
+[104.077072] (-) TimerEvent: {}
+[104.177882] (-) TimerEvent: {}
+[104.278693] (-) TimerEvent: {}
+[104.379481] (-) TimerEvent: {}
+[104.480288] (-) TimerEvent: {}
+[104.581097] (-) TimerEvent: {}
+[104.681912] (-) TimerEvent: {}
+[104.782730] (-) TimerEvent: {}
+[104.883549] (-) TimerEvent: {}
+[104.984359] (-) TimerEvent: {}
+[105.085235] (-) TimerEvent: {}
+[105.186143] (-) TimerEvent: {}
+[105.287060] (-) TimerEvent: {}
+[105.387952] (-) TimerEvent: {}
+[105.488765] (-) TimerEvent: {}
+[105.589578] (-) TimerEvent: {}
+[105.690392] (-) TimerEvent: {}
+[105.791203] (-) TimerEvent: {}
+[105.892012] (-) TimerEvent: {}
+[105.992822] (-) TimerEvent: {}
+[106.093645] (-) TimerEvent: {}
+[106.194449] (-) TimerEvent: {}
+[106.295249] (-) TimerEvent: {}
+[106.396053] (-) TimerEvent: {}
+[106.496973] (-) TimerEvent: {}
+[106.597788] (-) TimerEvent: {}
+[106.698598] (-) TimerEvent: {}
+[106.799400] (-) TimerEvent: {}
+[106.900208] (-) TimerEvent: {}
+[107.001010] (-) TimerEvent: {}
+[107.101843] (-) TimerEvent: {}
+[107.202711] (-) TimerEvent: {}
+[107.303552] (-) TimerEvent: {}
+[107.404323] (-) TimerEvent: {}
+[107.505099] (-) TimerEvent: {}
+[107.605872] (-) TimerEvent: {}
+[107.706659] (-) TimerEvent: {}
+[107.807426] (-) TimerEvent: {}
+[107.908203] (-) TimerEvent: {}
+[108.009005] (-) TimerEvent: {}
+[108.109762] (-) TimerEvent: {}
+[108.210543] (-) TimerEvent: {}
+[108.311336] (-) TimerEvent: {}
+[108.412116] (-) TimerEvent: {}
+[108.512887] (-) TimerEvent: {}
+[108.613648] (-) TimerEvent: {}
+[108.714417] (-) TimerEvent: {}
+[108.815192] (-) TimerEvent: {}
+[108.915952] (-) TimerEvent: {}
+[109.016804] (-) TimerEvent: {}
+[109.117706] (-) TimerEvent: {}
+[109.218500] (-) TimerEvent: {}
+[109.319281] (-) TimerEvent: {}
+[109.420041] (-) TimerEvent: {}
+[109.520824] (-) TimerEvent: {}
+[109.621616] (-) TimerEvent: {}
+[109.722381] (-) TimerEvent: {}
+[109.823172] (-) TimerEvent: {}
+[109.923951] (-) TimerEvent: {}
+[110.024792] (-) TimerEvent: {}
+[110.125684] (-) TimerEvent: {}
+[110.226577] (-) TimerEvent: {}
+[110.327450] (-) TimerEvent: {}
+[110.428275] (-) TimerEvent: {}
+[110.529098] (-) TimerEvent: {}
+[110.629925] (-) TimerEvent: {}
+[110.730762] (-) TimerEvent: {}
+[110.831588] (-) TimerEvent: {}
+[110.932403] (-) TimerEvent: {}
+[111.033263] (-) TimerEvent: {}
+[111.134133] (-) TimerEvent: {}
+[111.234961] (-) TimerEvent: {}
+[111.335767] (-) TimerEvent: {}
+[111.436599] (-) TimerEvent: {}
+[111.537415] (-) TimerEvent: {}
+[111.638222] (-) TimerEvent: {}
+[111.739046] (-) TimerEvent: {}
+[111.839860] (-) TimerEvent: {}
+[111.940706] (-) TimerEvent: {}
+[112.041589] (-) TimerEvent: {}
+[112.142502] (-) TimerEvent: {}
+[112.243345] (-) TimerEvent: {}
+[112.344174] (-) TimerEvent: {}
+[112.444981] (-) TimerEvent: {}
+[112.545786] (-) TimerEvent: {}
+[112.646681] (-) TimerEvent: {}
+[112.747501] (-) TimerEvent: {}
+[112.848304] (-) TimerEvent: {}
+[112.949101] (-) TimerEvent: {}
+[113.049973] (-) TimerEvent: {}
+[113.150810] (-) TimerEvent: {}
+[113.251612] (-) TimerEvent: {}
+[113.352435] (-) TimerEvent: {}
+[113.453251] (-) TimerEvent: {}
+[113.554073] (-) TimerEvent: {}
+[113.654877] (-) TimerEvent: {}
+[113.755698] (-) TimerEvent: {}
+[113.856542] (-) TimerEvent: {}
+[113.957348] (-) TimerEvent: {}
+[114.058166] (-) TimerEvent: {}
+[114.159004] (-) TimerEvent: {}
+[114.259804] (-) TimerEvent: {}
+[114.360599] (-) TimerEvent: {}
+[114.461395] (-) TimerEvent: {}
+[114.562203] (-) TimerEvent: {}
+[114.663007] (-) TimerEvent: {}
+[114.763816] (-) TimerEvent: {}
+[114.864621] (-) TimerEvent: {}
+[114.965416] (-) TimerEvent: {}
+[115.066252] (-) TimerEvent: {}
+[115.167215] (-) TimerEvent: {}
+[115.268069] (-) TimerEvent: {}
+[115.368881] (-) TimerEvent: {}
+[115.469676] (-) TimerEvent: {}
+[115.570469] (-) TimerEvent: {}
+[115.671262] (-) TimerEvent: {}
+[115.772060] (-) TimerEvent: {}
+[115.872859] (-) TimerEvent: {}
+[115.973664] (-) TimerEvent: {}
+[116.074502] (-) TimerEvent: {}
+[116.175322] (-) TimerEvent: {}
+[116.276115] (-) TimerEvent: {}
+[116.376946] (-) TimerEvent: {}
+[116.477714] (-) TimerEvent: {}
+[116.578496] (-) TimerEvent: {}
+[116.679279] (-) TimerEvent: {}
+[116.780061] (-) TimerEvent: {}
+[116.880874] (-) TimerEvent: {}
+[116.981734] (-) TimerEvent: {}
+[117.082612] (-) TimerEvent: {}
+[117.183455] (-) TimerEvent: {}
+[117.284230] (-) TimerEvent: {}
+[117.385029] (-) TimerEvent: {}
+[117.485804] (-) TimerEvent: {}
+[117.586589] (-) TimerEvent: {}
+[117.687376] (-) TimerEvent: {}
+[117.788150] (-) TimerEvent: {}
+[117.888953] (-) TimerEvent: {}
+[117.989786] (-) TimerEvent: {}
+[118.090626] (-) TimerEvent: {}
+[118.191449] (-) TimerEvent: {}
+[118.292322] (-) TimerEvent: {}
+[118.393130] (-) TimerEvent: {}
+[118.493913] (-) TimerEvent: {}
+[118.594722] (-) TimerEvent: {}
+[118.695510] (-) TimerEvent: {}
+[118.796296] (-) TimerEvent: {}
+[118.897136] (-) TimerEvent: {}
+[118.997973] (-) TimerEvent: {}
+[119.098785] (-) TimerEvent: {}
+[119.199679] (-) TimerEvent: {}
+[119.300464] (-) TimerEvent: {}
+[119.401255] (-) TimerEvent: {}
+[119.502040] (-) TimerEvent: {}
+[119.602836] (-) TimerEvent: {}
+[119.703627] (-) TimerEvent: {}
+[119.804418] (-) TimerEvent: {}
+[119.905204] (-) TimerEvent: {}
+[120.006044] (-) TimerEvent: {}
+[120.106992] (-) TimerEvent: {}
+[120.208139] (-) TimerEvent: {}
+[120.309096] (-) TimerEvent: {}
+[120.410009] (-) TimerEvent: {}
+[120.510894] (-) TimerEvent: {}
+[120.611718] (-) TimerEvent: {}
+[120.712545] (-) TimerEvent: {}
+[120.813356] (-) TimerEvent: {}
+[120.914112] (-) TimerEvent: {}
+[121.014865] (-) TimerEvent: {}
+[121.115655] (-) TimerEvent: {}
+[121.216473] (-) TimerEvent: {}
+[121.317256] (-) TimerEvent: {}
+[121.417992] (-) TimerEvent: {}
+[121.518730] (-) TimerEvent: {}
+[121.619478] (-) TimerEvent: {}
+[121.720248] (-) TimerEvent: {}
+[121.821053] (-) TimerEvent: {}
+[121.921854] (-) TimerEvent: {}
+[122.022655] (-) TimerEvent: {}
+[122.123476] (-) TimerEvent: {}
+[122.224287] (-) TimerEvent: {}
+[122.325102] (-) TimerEvent: {}
+[122.425921] (-) TimerEvent: {}
+[122.526780] (-) TimerEvent: {}
+[122.627582] (-) TimerEvent: {}
+[122.728395] (-) TimerEvent: {}
+[122.829214] (-) TimerEvent: {}
+[122.930036] (-) TimerEvent: {}
+[123.030859] (-) TimerEvent: {}
+[123.131691] (-) TimerEvent: {}
+[123.232516] (-) TimerEvent: {}
+[123.333342] (-) TimerEvent: {}
+[123.434200] (-) TimerEvent: {}
+[123.535041] (-) TimerEvent: {}
+[123.635867] (-) TimerEvent: {}
+[123.736730] (-) TimerEvent: {}
+[123.837508] (-) TimerEvent: {}
+[123.938323] (-) TimerEvent: {}
+[124.039153] (-) TimerEvent: {}
+[124.139944] (-) TimerEvent: {}
+[124.240765] (-) TimerEvent: {}
+[124.341578] (-) TimerEvent: {}
+[124.442386] (-) TimerEvent: {}
+[124.543191] (-) TimerEvent: {}
+[124.644010] (-) TimerEvent: {}
+[124.744826] (-) TimerEvent: {}
+[124.845634] (-) TimerEvent: {}
+[124.946476] (-) TimerEvent: {}
+[125.047278] (-) TimerEvent: {}
+[125.148112] (-) TimerEvent: {}
+[125.248977] (-) TimerEvent: {}
+[125.349797] (-) TimerEvent: {}
+[125.450594] (-) TimerEvent: {}
+[125.551376] (-) TimerEvent: {}
+[125.652149] (-) TimerEvent: {}
+[125.752953] (-) TimerEvent: {}
+[125.853759] (-) TimerEvent: {}
+[125.954576] (-) TimerEvent: {}
+[126.055340] (-) TimerEvent: {}
+[126.156130] (-) TimerEvent: {}
+[126.256959] (-) TimerEvent: {}
+[126.357718] (-) TimerEvent: {}
+[126.458480] (-) TimerEvent: {}
+[126.559276] (-) TimerEvent: {}
+[126.660071] (-) TimerEvent: {}
+[126.760842] (-) TimerEvent: {}
+[126.861632] (-) TimerEvent: {}
+[126.962402] (-) TimerEvent: {}
+[127.063178] (-) TimerEvent: {}
+[127.163970] (-) TimerEvent: {}
+[127.264775] (-) TimerEvent: {}
+[127.365558] (-) TimerEvent: {}
+[127.466345] (-) TimerEvent: {}
+[127.567142] (-) TimerEvent: {}
+[127.667916] (-) TimerEvent: {}
+[127.768716] (-) TimerEvent: {}
+[127.869481] (-) TimerEvent: {}
+[127.970259] (-) TimerEvent: {}
+[128.071026] (-) TimerEvent: {}
+[128.171821] (-) TimerEvent: {}
+[128.272610] (-) TimerEvent: {}
+[128.373418] (-) TimerEvent: {}
+[128.474223] (-) TimerEvent: {}
+[128.575014] (-) TimerEvent: {}
+[128.675792] (-) TimerEvent: {}
+[128.776570] (-) TimerEvent: {}
+[128.877345] (-) TimerEvent: {}
+[128.978121] (-) TimerEvent: {}
+[129.078894] (-) TimerEvent: {}
+[129.179687] (-) TimerEvent: {}
+[129.280480] (-) TimerEvent: {}
+[129.381264] (-) TimerEvent: {}
+[129.482054] (-) TimerEvent: {}
+[129.582834] (-) TimerEvent: {}
+[129.683603] (-) TimerEvent: {}
+[129.784400] (-) TimerEvent: {}
+[129.885185] (-) TimerEvent: {}
+[129.985977] (-) TimerEvent: {}
+[130.086801] (-) TimerEvent: {}
+[130.187627] (-) TimerEvent: {}
+[130.288485] (-) TimerEvent: {}
+[130.389335] (-) TimerEvent: {}
+[130.490161] (-) TimerEvent: {}
+[130.590962] (-) TimerEvent: {}
+[130.691761] (-) TimerEvent: {}
+[130.792550] (-) TimerEvent: {}
+[130.893336] (-) TimerEvent: {}
+[130.994131] (-) TimerEvent: {}
+[131.094927] (-) TimerEvent: {}
+[131.195813] (-) TimerEvent: {}
+[131.296605] (-) TimerEvent: {}
+[131.397379] (-) TimerEvent: {}
+[131.498181] (-) TimerEvent: {}
+[131.598987] (-) TimerEvent: {}
+[131.699761] (-) TimerEvent: {}
+[131.800547] (-) TimerEvent: {}
+[131.901335] (-) TimerEvent: {}
+[132.002116] (-) TimerEvent: {}
+[132.102934] (-) TimerEvent: {}
+[132.203742] (-) TimerEvent: {}
+[132.304524] (-) TimerEvent: {}
+[132.405274] (-) TimerEvent: {}
+[132.506055] (-) TimerEvent: {}
+[132.606883] (-) TimerEvent: {}
+[132.707679] (-) TimerEvent: {}
+[132.808471] (-) TimerEvent: {}
+[132.909258] (-) TimerEvent: {}
+[133.010069] (-) TimerEvent: {}
+[133.110888] (-) TimerEvent: {}
+[133.211671] (-) TimerEvent: {}
+[133.312441] (-) TimerEvent: {}
+[133.413263] (-) TimerEvent: {}
+[133.514441] (-) TimerEvent: {}
+[133.615227] (-) TimerEvent: {}
+[133.716018] (-) TimerEvent: {}
+[133.816872] (-) TimerEvent: {}
+[133.917653] (-) TimerEvent: {}
+[134.018447] (-) TimerEvent: {}
+[134.119210] (-) TimerEvent: {}
+[134.219968] (-) TimerEvent: {}
+[134.320731] (-) TimerEvent: {}
+[134.421520] (-) TimerEvent: {}
+[134.522294] (-) TimerEvent: {}
+[134.623081] (-) TimerEvent: {}
+[134.723866] (-) TimerEvent: {}
+[134.824649] (-) TimerEvent: {}
+[134.925424] (-) TimerEvent: {}
+[135.026195] (-) TimerEvent: {}
+[135.127028] (-) TimerEvent: {}
+[135.227865] (-) TimerEvent: {}
+[135.328704] (-) TimerEvent: {}
+[135.429524] (-) TimerEvent: {}
+[135.530322] (-) TimerEvent: {}
+[135.631109] (-) TimerEvent: {}
+[135.731880] (-) TimerEvent: {}
+[135.832658] (-) TimerEvent: {}
+[135.933433] (-) TimerEvent: {}
+[136.034209] (-) TimerEvent: {}
+[136.134984] (-) TimerEvent: {}
+[136.235772] (-) TimerEvent: {}
+[136.336553] (-) TimerEvent: {}
+[136.437328] (-) TimerEvent: {}
+[136.538100] (-) TimerEvent: {}
+[136.638875] (-) TimerEvent: {}
+[136.739650] (-) TimerEvent: {}
+[136.840415] (-) TimerEvent: {}
+[136.941181] (-) TimerEvent: {}
+[137.041954] (-) TimerEvent: {}
+[137.142726] (-) TimerEvent: {}
+[137.243501] (-) TimerEvent: {}
+[137.344282] (-) TimerEvent: {}
+[137.445065] (-) TimerEvent: {}
+[137.545837] (-) TimerEvent: {}
+[137.646669] (-) TimerEvent: {}
+[137.747446] (-) TimerEvent: {}
+[137.848230] (-) TimerEvent: {}
+[137.949005] (-) TimerEvent: {}
+[138.049777] (-) TimerEvent: {}
+[138.150553] (-) TimerEvent: {}
+[138.251333] (-) TimerEvent: {}
+[138.352134] (-) TimerEvent: {}
+[138.452941] (-) TimerEvent: {}
+[138.553734] (-) TimerEvent: {}
+[138.654517] (-) TimerEvent: {}
+[138.755309] (-) TimerEvent: {}
+[138.856071] (-) TimerEvent: {}
+[138.956868] (-) TimerEvent: {}
+[139.057632] (-) TimerEvent: {}
+[139.158426] (-) TimerEvent: {}
+[139.259220] (-) TimerEvent: {}
+[139.360005] (-) TimerEvent: {}
+[139.460781] (-) TimerEvent: {}
+[139.561543] (-) TimerEvent: {}
+[139.662332] (-) TimerEvent: {}
+[139.763122] (-) TimerEvent: {}
+[139.863904] (-) TimerEvent: {}
+[139.964663] (-) TimerEvent: {}
+[140.065451] (-) TimerEvent: {}
+[140.166293] (-) TimerEvent: {}
+[140.267316] (-) TimerEvent: {}
+[140.368161] (-) TimerEvent: {}
+[140.468961] (-) TimerEvent: {}
+[140.569764] (-) TimerEvent: {}
+[140.670558] (-) TimerEvent: {}
+[140.771325] (-) TimerEvent: {}
+[140.872102] (-) TimerEvent: {}
+[140.972889] (-) TimerEvent: {}
+[141.073667] (-) TimerEvent: {}
+[141.174437] (-) TimerEvent: {}
+[141.275210] (-) TimerEvent: {}
+[141.375984] (-) TimerEvent: {}
+[141.476832] (-) TimerEvent: {}
+[141.577598] (-) TimerEvent: {}
+[141.678373] (-) TimerEvent: {}
+[141.779136] (-) TimerEvent: {}
+[141.879910] (-) TimerEvent: {}
+[141.980694] (-) TimerEvent: {}
+[142.081469] (-) TimerEvent: {}
+[142.182263] (-) TimerEvent: {}
+[142.283045] (-) TimerEvent: {}
+[142.383816] (-) TimerEvent: {}
+[142.484592] (-) TimerEvent: {}
+[142.585368] (-) TimerEvent: {}
+[142.686139] (-) TimerEvent: {}
+[142.786981] (-) TimerEvent: {}
+[142.887765] (-) TimerEvent: {}
+[142.988547] (-) TimerEvent: {}
+[143.089328] (-) TimerEvent: {}
+[143.190107] (-) TimerEvent: {}
+[143.290876] (-) TimerEvent: {}
+[143.391672] (-) TimerEvent: {}
+[143.492477] (-) TimerEvent: {}
+[143.593257] (-) TimerEvent: {}
+[143.694020] (-) TimerEvent: {}
+[143.794796] (-) TimerEvent: {}
+[143.895566] (-) TimerEvent: {}
+[143.996343] (-) TimerEvent: {}
+[144.097228] (-) TimerEvent: {}
+[144.197998] (-) TimerEvent: {}
+[144.298780] (-) TimerEvent: {}
+[144.399577] (-) TimerEvent: {}
+[144.500342] (-) TimerEvent: {}
+[144.601137] (-) TimerEvent: {}
+[144.701917] (-) TimerEvent: {}
+[144.802697] (-) TimerEvent: {}
+[144.903460] (-) TimerEvent: {}
+[145.004247] (-) TimerEvent: {}
+[145.105011] (-) TimerEvent: {}
+[145.205834] (-) TimerEvent: {}
+[145.306725] (-) TimerEvent: {}
+[145.407573] (-) TimerEvent: {}
+[145.508381] (-) TimerEvent: {}
+[145.609168] (-) TimerEvent: {}
+[145.709956] (-) TimerEvent: {}
+[145.810750] (-) TimerEvent: {}
+[145.911531] (-) TimerEvent: {}
+[146.012331] (-) TimerEvent: {}
+[146.113123] (-) TimerEvent: {}
+[146.213917] (-) TimerEvent: {}
+[146.314708] (-) TimerEvent: {}
+[146.415501] (-) TimerEvent: {}
+[146.516283] (-) TimerEvent: {}
+[146.617115] (-) TimerEvent: {}
+[146.717903] (-) TimerEvent: {}
+[146.818686] (-) TimerEvent: {}
+[146.919455] (-) TimerEvent: {}
+[147.020243] (-) TimerEvent: {}
+[147.121038] (-) TimerEvent: {}
+[147.221808] (-) TimerEvent: {}
+[147.322540] (-) TimerEvent: {}
+[147.423287] (-) TimerEvent: {}
+[147.524040] (-) TimerEvent: {}
+[147.624769] (-) TimerEvent: {}
+[147.725525] (-) TimerEvent: {}
+[147.826279] (-) TimerEvent: {}
+[147.927019] (-) TimerEvent: {}
+[148.027737] (-) TimerEvent: {}
+[148.128493] (-) TimerEvent: {}
+[148.229271] (-) TimerEvent: {}
+[148.330045] (-) TimerEvent: {}
+[148.430818] (-) TimerEvent: {}
+[148.531580] (-) TimerEvent: {}
+[148.632349] (-) TimerEvent: {}
+[148.733116] (-) TimerEvent: {}
+[148.833879] (-) TimerEvent: {}
+[148.934632] (-) TimerEvent: {}
+[149.035398] (-) TimerEvent: {}
+[149.136181] (-) TimerEvent: {}
+[149.236995] (-) TimerEvent: {}
+[149.337828] (-) TimerEvent: {}
+[149.438595] (-) TimerEvent: {}
+[149.539350] (-) TimerEvent: {}
+[149.640112] (-) TimerEvent: {}
+[149.740874] (-) TimerEvent: {}
+[149.841621] (-) TimerEvent: {}
+[149.942348] (-) TimerEvent: {}
+[150.043083] (-) TimerEvent: {}
+[150.143824] (-) TimerEvent: {}
+[150.244619] (-) TimerEvent: {}
+[150.345458] (-) TimerEvent: {}
+[150.446265] (-) TimerEvent: {}
+[150.547099] (-) TimerEvent: {}
+[150.647881] (-) TimerEvent: {}
+[150.748659] (-) TimerEvent: {}
+[150.849440] (-) TimerEvent: {}
+[150.950224] (-) TimerEvent: {}
+[151.050995] (-) TimerEvent: {}
+[151.151776] (-) TimerEvent: {}
+[151.252554] (-) TimerEvent: {}
+[151.353311] (-) TimerEvent: {}
+[151.454076] (-) TimerEvent: {}
+[151.554847] (-) TimerEvent: {}
+[151.655600] (-) TimerEvent: {}
+[151.756359] (-) TimerEvent: {}
+[151.857190] (-) TimerEvent: {}
+[151.957980] (-) TimerEvent: {}
+[152.058772] (-) TimerEvent: {}
+[152.159562] (-) TimerEvent: {}
+[152.260346] (-) TimerEvent: {}
+[152.361113] (-) TimerEvent: {}
+[152.461871] (-) TimerEvent: {}
+[152.562635] (-) TimerEvent: {}
+[152.663397] (-) TimerEvent: {}
+[152.764128] (-) TimerEvent: {}
+[152.864841] (-) TimerEvent: {}
+[152.965625] (-) TimerEvent: {}
+[153.066468] (-) TimerEvent: {}
+[153.167255] (-) TimerEvent: {}
+[153.268108] (-) TimerEvent: {}
+[153.368908] (-) TimerEvent: {}
+[153.469715] (-) TimerEvent: {}
+[153.570495] (-) TimerEvent: {}
+[153.671288] (-) TimerEvent: {}
+[153.772210] (-) TimerEvent: {}
+[153.817875] (lslidar_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lslidar_driver_node\x1b[0m\n'}
+[153.872316] (-) TimerEvent: {}
+[153.973159] (-) TimerEvent: {}
+[154.073993] (-) TimerEvent: {}
+[154.174797] (-) TimerEvent: {}
+[154.275582] (-) TimerEvent: {}
+[154.376476] (-) TimerEvent: {}
+[154.477308] (-) TimerEvent: {}
+[154.578137] (-) TimerEvent: {}
+[154.678924] (-) TimerEvent: {}
+[154.779727] (-) TimerEvent: {}
+[154.880583] (-) TimerEvent: {}
+[154.981497] (-) TimerEvent: {}
+[155.082342] (-) TimerEvent: {}
+[155.183179] (-) TimerEvent: {}
+[155.284049] (-) TimerEvent: {}
+[155.384974] (-) TimerEvent: {}
+[155.485920] (-) TimerEvent: {}
+[155.586785] (-) TimerEvent: {}
+[155.687585] (-) TimerEvent: {}
+[155.788497] (-) TimerEvent: {}
+[155.889328] (-) TimerEvent: {}
+[155.990155] (-) TimerEvent: {}
+[156.091049] (-) TimerEvent: {}
+[156.191891] (-) TimerEvent: {}
+[156.292712] (-) TimerEvent: {}
+[156.393558] (-) TimerEvent: {}
+[156.494383] (-) TimerEvent: {}
+[156.595366] (-) TimerEvent: {}
+[156.696196] (-) TimerEvent: {}
+[156.797058] (-) TimerEvent: {}
+[156.897896] (-) TimerEvent: {}
+[156.998746] (-) TimerEvent: {}
+[157.099659] (-) TimerEvent: {}
+[157.200480] (-) TimerEvent: {}
+[157.301317] (-) TimerEvent: {}
+[157.402219] (-) TimerEvent: {}
+[157.503044] (-) TimerEvent: {}
+[157.603828] (-) TimerEvent: {}
+[157.704656] (-) TimerEvent: {}
+[157.805507] (-) TimerEvent: {}
+[157.906432] (-) TimerEvent: {}
+[158.007251] (-) TimerEvent: {}
+[158.108054] (-) TimerEvent: {}
+[158.208970] (-) TimerEvent: {}
+[158.309813] (-) TimerEvent: {}
+[158.410690] (-) TimerEvent: {}
+[158.511514] (-) TimerEvent: {}
+[158.612369] (-) TimerEvent: {}
+[158.713277] (-) TimerEvent: {}
+[158.814106] (-) TimerEvent: {}
+[158.914914] (-) TimerEvent: {}
+[159.015736] (-) TimerEvent: {}
+[159.116594] (-) TimerEvent: {}
+[159.217504] (-) TimerEvent: {}
+[159.318329] (-) TimerEvent: {}
+[159.419125] (-) TimerEvent: {}
+[159.520072] (-) TimerEvent: {}
+[159.620908] (-) TimerEvent: {}
+[159.721698] (-) TimerEvent: {}
+[159.822512] (-) TimerEvent: {}
+[159.923337] (-) TimerEvent: {}
+[160.024149] (-) TimerEvent: {}
+[160.124936] (-) TimerEvent: {}
+[160.225884] (-) TimerEvent: {}
+[160.326979] (-) TimerEvent: {}
+[160.427877] (-) TimerEvent: {}
+[160.528798] (-) TimerEvent: {}
+[160.629632] (-) TimerEvent: {}
+[160.730463] (-) TimerEvent: {}
+[160.831288] (-) TimerEvent: {}
+[160.932193] (-) TimerEvent: {}
+[161.033028] (-) TimerEvent: {}
+[161.133850] (-) TimerEvent: {}
+[161.234659] (-) TimerEvent: {}
+[161.335489] (-) TimerEvent: {}
+[161.436438] (-) TimerEvent: {}
+[161.537236] (-) TimerEvent: {}
+[161.638118] (-) TimerEvent: {}
+[161.738956] (-) TimerEvent: {}
+[161.839852] (-) TimerEvent: {}
+[161.940701] (-) TimerEvent: {}
+[162.041611] (-) TimerEvent: {}
+[162.142464] (-) TimerEvent: {}
+[162.243359] (-) TimerEvent: {}
+[162.344136] (-) TimerEvent: {}
+[162.444975] (-) TimerEvent: {}
+[162.545879] (-) TimerEvent: {}
+[162.646745] (-) TimerEvent: {}
+[162.747566] (-) TimerEvent: {}
+[162.848354] (-) TimerEvent: {}
+[162.949209] (-) TimerEvent: {}
+[163.050101] (-) TimerEvent: {}
+[163.150919] (-) TimerEvent: {}
+[163.251788] (-) TimerEvent: {}
+[163.352707] (-) TimerEvent: {}
+[163.453644] (-) TimerEvent: {}
+[163.554424] (-) TimerEvent: {}
+[163.655264] (-) TimerEvent: {}
+[163.756094] (-) TimerEvent: {}
+[163.856970] (-) TimerEvent: {}
+[163.957743] (-) TimerEvent: {}
+[164.058501] (-) TimerEvent: {}
+[164.159290] (-) TimerEvent: {}
+[164.260128] (-) TimerEvent: {}
+[164.360885] (-) TimerEvent: {}
+[164.461632] (-) TimerEvent: {}
+[164.562435] (-) TimerEvent: {}
+[164.663246] (-) TimerEvent: {}
+[164.764037] (-) TimerEvent: {}
+[164.864844] (-) TimerEvent: {}
+[164.965641] (-) TimerEvent: {}
+[165.066554] (-) TimerEvent: {}
+[165.167332] (-) TimerEvent: {}
+[165.268278] (-) TimerEvent: {}
+[165.369271] (-) TimerEvent: {}
+[165.470126] (-) TimerEvent: {}
+[165.570933] (-) TimerEvent: {}
+[165.671836] (-) TimerEvent: {}
+[165.772638] (-) TimerEvent: {}
+[165.873409] (-) TimerEvent: {}
+[165.974175] (-) TimerEvent: {}
+[166.074947] (-) TimerEvent: {}
+[166.175747] (-) TimerEvent: {}
+[166.276574] (-) TimerEvent: {}
+[166.377390] (-) TimerEvent: {}
+[166.478184] (-) TimerEvent: {}
+[166.578989] (-) TimerEvent: {}
+[166.679782] (-) TimerEvent: {}
+[166.780564] (-) TimerEvent: {}
+[166.881333] (-) TimerEvent: {}
+[166.982125] (-) TimerEvent: {}
+[167.082881] (-) TimerEvent: {}
+[167.183657] (-) TimerEvent: {}
+[167.284428] (-) TimerEvent: {}
+[167.385201] (-) TimerEvent: {}
+[167.485966] (-) TimerEvent: {}
+[167.586774] (-) TimerEvent: {}
+[167.687543] (-) TimerEvent: {}
+[167.788344] (-) TimerEvent: {}
+[167.889107] (-) TimerEvent: {}
+[167.989862] (-) TimerEvent: {}
+[168.090616] (-) TimerEvent: {}
+[168.191388] (-) TimerEvent: {}
+[168.292149] (-) TimerEvent: {}
+[168.392914] (-) TimerEvent: {}
+[168.493691] (-) TimerEvent: {}
+[168.594530] (-) TimerEvent: {}
+[168.695298] (-) TimerEvent: {}
+[168.796009] (-) TimerEvent: {}
+[168.896759] (-) TimerEvent: {}
+[168.997475] (-) TimerEvent: {}
+[169.098247] (-) TimerEvent: {}
+[169.173420] (lslidar_driver) StdoutLine: {'line': b'[100%] Built target lslidar_driver_node\n'}
+[169.198421] (-) TimerEvent: {}
+[169.238679] (lslidar_driver) CommandEnded: {'returncode': 0}
+[169.247977] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'install'}
+[169.260478] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/agri_robot_ws/build/lslidar_driver'], 'cwd': '/home/sunrise/agri_robot_ws/build/lslidar_driver', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.43.71 60668 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/agri_robot_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sunrise/agri_robot_ws/build/lslidar_driver'), ('SSH_CONNECTION', '192.168.43.71 60668 192.168.43.127 22'), ('PYTHONPATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/agri_robot_ws/install/lslidar_msgs:/home/sunrise/agri_robot_ws/install/agri_imu_driver:/home/sunrise/agri_robot_ws/install/agri_control:/opt/ros/humble')]), 'shell': False}
+[169.292655] (lslidar_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[169.294565] (lslidar_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[169.297392] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py\n'}
+[169.298495] (-) TimerEvent: {}
+[169.335934] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py\n'}
+[169.376068] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py\n'}
+[169.398701] (-) TimerEvent: {}
+[169.418035] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py\n'}
+[169.466223] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py\n'}
+[169.498914] (-) TimerEvent: {}
+[169.514377] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py\n'}
+[169.563231] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py\n'}
+[169.599121] (-) TimerEvent: {}
+[169.612489] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py\n'}
+[169.669741] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py\n'}
+[169.699338] (-) TimerEvent: {}
+[169.714132] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py\n'}
+[169.767929] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml\n'}
+[169.799540] (-) TimerEvent: {}
+[169.813085] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml\n'}
+[169.862312] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml\n'}
+[169.899752] (-) TimerEvent: {}
+[169.910758] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml\n'}
+[169.958827] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml\n'}
+[169.999962] (-) TimerEvent: {}
+[170.005281] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml\n'}
+[170.054031] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml\n'}
+[170.100326] (-) TimerEvent: {}
+[170.103194] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml\n'}
+[170.156156] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz\n'}
+[170.200627] (-) TimerEvent: {}
+[170.205306] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node\n'}
+[170.250195] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver\n'}
+[170.291149] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver\n'}
+[170.300841] (-) TimerEvent: {}
+[170.335674] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh\n'}
+[170.383579] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv\n'}
+[170.401086] (-) TimerEvent: {}
+[170.434032] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh\n'}
+[170.483910] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv\n'}
+[170.501315] (-) TimerEvent: {}
+[170.533840] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash\n'}
+[170.584767] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh\n'}
+[170.601541] (-) TimerEvent: {}
+[170.634971] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh\n'}
+[170.685171] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv\n'}
+[170.701742] (-) TimerEvent: {}
+[170.736003] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv\n'}
+[170.786142] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver\n'}
+[170.801970] (-) TimerEvent: {}
+[170.829347] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[170.869225] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[170.902209] (-) TimerEvent: {}
+[170.917235] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake\n'}
+[170.964804] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake\n'}
+[171.002448] (-) TimerEvent: {}
+[171.014747] (lslidar_driver) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/agri_robot_ws/install/lslidar_driver/share/lslidar_driver/package.xml\n'}
+[171.083090] (lslidar_driver) CommandEnded: {'returncode': 0}
+[171.104538] (-) TimerEvent: {}
+[171.187607] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 0}
+[171.190981] (-) EventReactorShutdown: {}

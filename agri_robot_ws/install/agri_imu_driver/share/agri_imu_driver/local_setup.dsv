@@ -1,0 +1,2 @@
+source;share/agri_imu_driver/environment/ament_prefix_path.sh
+source;share/agri_imu_driver/environment/path.sh
